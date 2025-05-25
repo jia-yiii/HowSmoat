@@ -1,0 +1,56 @@
+.link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover {
+  color: #70823C;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0,0,0,0.2);  /* 你要的半透明黑遮罩 */
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;     /* 不攔截滑鼠事件 */
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  text-align: center;
+  padding: .5rem 0;
+  background: rgba(255,255,255,0.8);
+  transition: background 0.3s, color 0.3s;
+}
+.card:hover::before {
+  opacity: 1;
+}
+.card:hover .caption {
+  background: rgba(255,255,255,0.95);
+  color: #70823C;          /* 你要的 hover 字色 */
+}
+.sectionImage {
+  max-height: 300px;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 12px;
+}

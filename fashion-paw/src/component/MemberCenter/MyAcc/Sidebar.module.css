@@ -1,0 +1,27 @@
+.wrapper{
+    width: 200px;
+    padding: 20px 0 0 20px;
+    margin: 0 0 20px 0;
+    /* background-color: aquamarine; */
+    
+}
+.btn{
+    width: 100%;
+    padding: 10px;
+    /* margin: 15px 0 0 0; */
+    /* border: 1px solid black; */
+    border-radius: 8px;
+    color: black;
+}
+
+.btn:hover{
+    background-color: rgba(206, 212, 218,0.5);
+    transition: 0.3s ease;
+    /* cursor: pointer; */
+}
+.btn a{
+    color: #87512D;
+}
+.btn a:hover{
+    text-decoration: none;
+}

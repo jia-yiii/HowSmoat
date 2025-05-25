@@ -1,0 +1,54 @@
+.footer {
+  position: relative;
+  background-color: #70823C;
+  /* padding-top: 4rem;  */
+  /* 波浪高度 */
+  /* padding-bottom: 1rem; */
+  padding:4rem 1rem 1rem 1rem;
+  color: white;
+}
+
+/* ::before 放在 footer 之上，畫一串小半圓 */
+.footer::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  /* 從 footer 頂端開始往上推 */
+  left: 0;
+  width: 100%;
+  height: 60px;
+  /* 小波浪的高度 */
+  background:
+    /* 在 y 座標底部畫一個半徑 30px 的白色圓角 */
+    radial-gradient(circle at 50% 100%, #70823C 60px, transparent 0) repeat-x;
+  /* 水平重複 */
+  background-size: 70px 60px;
+  /* 每個小波浪寬高 */
+}
+
+/* 列表連結 */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  margin-bottom: 0.5rem;
+}
+
+.list li a {
+  color: white;
+  text-decoration: none;
+  transition: opacity 0.2s;
+}
+
+.list li a:hover {
+  opacity: 0.8;
+}
+
+/* 聯絡資訊 */
+.contact p {
+  margin-bottom: 0.5rem;
+  color: white;
+}

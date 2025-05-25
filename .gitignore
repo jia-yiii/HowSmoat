@@ -1,0 +1,38 @@
+# === Node.js & Express ===
+**/node_modules/
+/nodejs/node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# 環境變數
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# === React ===
+/fashion-paw/node_modules/
+/fashion-paw/build/
+/fashion-paw/.DS_Store
+
+# === Mac 系統產生的 ===
+.DS_Store
+
+
+# === VSCode 設定檔（依團隊而定是否要加）===
+.vscode/
+#sql.js的module
+nodejs/node_modules
+nodejs/aiRobot/node_modules
+#地圖的geojson
+fashion-paw/public/taiwan_counties.geojson
+
+fashion-paw/public/taiwan_townships.geojson
+
+
+# === 綠界 SDK 不需要控管的項目 ===
+nodejs/utils/ecpay-sdk/.idea/
+nodejs/utils/ecpay-sdk/node_modules/
+nodejs/utils/ecpay-sdk/example/

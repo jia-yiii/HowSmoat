@@ -1,0 +1,49 @@
+/* src/component/SwitchBtn/SwitchBtn.module.css */
+
+/* 1. 外層排版 */
+.switchBtn {
+  display: flex;
+  gap: 8px;
+}
+
+/* 2. 按鈕基礎樣式 */
+.btn {
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+/* 3. SVG 圖示尺寸 */
+.btn svg {
+  width: 20px;
+  height: 20px;
+  fill: #333;
+  /* 預設 icon 顏色 */
+}
+
+.btn svg:hover {
+  fill: white;
+}
+
+/* 4. 滑鼠移上去的小滿版效果 */
+.btn:hover {
+  background: #F5D8A4;
+}
+
+/* 5. 選中狀態 */
+.active {
+  background: #F5D8A4;
+  border-color: #F5D8A4;
+}
+
+.active svg {
+  fill: #fff;
+  /* 選中時 icon 變白 */
+}

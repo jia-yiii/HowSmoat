@@ -1,0 +1,28 @@
+.register {
+    display: flex;
+    flex-direction: column;
+    background-color: #F7F6EE;
+    /* padding: 10px; */
+    border-radius: 12px;
+}
+
+.registerTitle {
+    font-size: 28px;
+    font-weight: bold;
+    /* margin-bottom: 15px; */
+    text-align: center;
+    padding-top: 25px;
+}
+
+.registercircle {
+    padding: 15px 0 10px 0;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #8DAA91;
+    margin: 0 20px 0 20px;
+    /* background-color: rgb(127, 178, 255); */
+}
+
+.registerfrom {
+    /* background-color: aquamarine; */
+}

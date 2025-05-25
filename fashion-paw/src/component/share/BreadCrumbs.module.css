@@ -1,0 +1,21 @@
+/* BreadCrumbs.module.css */
+.breadcrumbContainer {
+  margin: 16px 0;
+}
+.breadcrumb {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin-left: 1.5rem
+}
+.separator::before {
+  content: "›";
+  margin: 0 0.5em;
+}
+.link {
+  text-decoration: none;
+  color: #007bff;
+}
+.active {
+  color: #555;
+}

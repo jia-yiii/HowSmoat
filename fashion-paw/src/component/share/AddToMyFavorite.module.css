@@ -1,0 +1,35 @@
+.favBtn {
+    margin: 6px -10px 0 15px
+}
+
+.favBtn:hover .favOriginal {
+    display: none;
+
+}
+
+.favBtn:hover .favHover {
+    font-size: 1.1em;
+    /* 放大文字，愛心就變大 */
+    display: inline;
+}
+
+.favBtn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.favOriginal {
+    color: #F06256;
+}
+
+.favHover {
+    color: #F06256;
+    text-shadow: 1px 1px 2px #988450;
+    display: none
+}
+
+.favClick {
+    color: #F06256;
+    text-shadow: 1px 1px 2px #988450;
+    font-size: 1.1em;
+}

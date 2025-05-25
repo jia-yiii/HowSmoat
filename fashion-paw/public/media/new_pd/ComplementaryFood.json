@@ -1,0 +1,314 @@
+[
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "dog",
+        "pd_name": "羊肉機能餐盒",
+        "price": "48",
+        "description": "魚油添加，幫助毛髮亮麗",
+        "categories": "Complementary_Food",
+        "attribute": {
+            "brand": "Rrannk",
+            "name": "羊肉機能餐盒",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "100公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/dog/ComplementaryFood/1-1Rrannk_mutton.png",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/dog/ComplementaryFood/1-2Rrannk_mutton.png",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "dog",
+        "pd_name": "牛肉蔬菜機能餐盒",
+        "price": "48",
+        "description": "綠碗豆、魚油添加，幫助維持免疫力",
+        "categories": "Complementary_Food",
+        "attribute": {
+            "brand": "Rrannk",
+            "name": "牛肉蔬菜機能餐盒",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "100公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/dog/ComplementaryFood/2-1Rrannk_beefvegetable.png",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/dog/ComplementaryFood/2-2Rrannk_beefvegetable.png",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "dog",
+        "pd_name": "牛肉機能餐盒",
+        "price": "48",
+        "description": "葡萄糖胺及軟骨素添加，幫助骨骼保健",
+        "categories": "Complementary_Food",
+        "attribute": {
+            "brand": "Rrannk",
+            "name": "牛肉機能餐盒",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "100公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/dog/ComplementaryFood/3-1Rrannk_beef.png",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/dog/ComplementaryFood/3-2Rrannk_beef.png",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "dog",
+        "pd_name": "雞肉機能餐盒",
+        "price": "48",
+        "description": "L肉鹼添加，幫助維持體重",
+        "categories": "Complementary_Food",
+        "attribute": {
+            "brand": "Rrannk",
+            "name": "雞肉機能餐盒",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "100公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/dog/ComplementaryFood/4-1Rrannk_chicken.png",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/dog/ComplementaryFood/4-2Rrannk_chicken.png",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "dog",
+        "pd_name": "紗餐盒-日本博多放牧雞 六種穀物",
+        "price": "50",
+        "description": "台灣唯一 ‧ 日本製犬用餐盒: 使用富含比一般雞肉鮮味程度高的日本博多放牧雞，肉質纖細 ; 雞肉含有高抗氧化營養成分 ; 搭配有維生素及食物纖維高的六種穀物",
+        "categories": "Complementary_Food",
+        "attribute": {
+            "brand": "DoggyMan",
+            "name": "紗餐盒-日本博多放牧雞 六種穀物",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "100公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/dog/ComplementaryFood/5-1Doggyman_chicken liver.png",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/dog/ComplementaryFood/5-2Doggyman_chicken liver.png",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "dog",
+        "pd_name": "Boby餐杯",
+        "price": "24",
+        "description": "貼心的餐杯設計，方便開啟不傷手，輕輕一擠即可享用，營養補給，特別添加機能配方，幫助愛犬成長。",
+        "categories": "Complementary_Food",
+        "attribute": {
+            "brand": "惜時SEEDS",
+            "name": "Boby餐杯",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "80公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/dog/ComplementaryFood/6-1SEEDSBoby_chicken.png",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/dog/ComplementaryFood/6-2SEEDSBoby_chicken.png",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "cat",
+        "pd_name": "佛跳牆黃金鮮鮪",
+        "price": "29",
+        "description": "史上最多料的罐罐!重磅登場！四種好料總匯，多層美味一次滿足，無膠無穀無香料，好吃也不怕挑嘴",
+        "categories": "Complementary_Food",
+        "attribute": {
+            "brand": "怪獸部落",
+            "name": "佛跳牆黃金鮮鮪",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "80公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/cat/ComplementaryFood/1-1LitoMon.png",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/cat/ComplementaryFood/1-2LitoMon.png",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/cat/ComplementaryFood/1-3LitoMon.png",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "cat",
+        "pd_name": "鮪魚鮭魚湯罐",
+        "price": "23",
+        "description": "富含多種營養素、全系列添加牛磺酸、嚴選食材 更好消化吸收。",
+        "categories": "Complementary_Food",
+        "attribute": {
+            "brand": "KitCat",
+            "name": "鮪魚鮭魚湯罐",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "70公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/cat/ComplementaryFood/2-1KitCat.png",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/cat/ComplementaryFood/2-2KitCat.png",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "cat",
+        "pd_name": "鮪魚銀魚湯罐",
+        "price": "23",
+        "description": "富含多種營養素、全系列添加牛磺酸、嚴選食材 更好消化吸收。",
+        "categories": "Complementary_Food",
+        "attribute": {
+            "brand": "KitCat",
+            "name": "鮪魚銀魚湯罐",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "70公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/cat/ComplementaryFood/3-1KitCat.png",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/cat/ComplementaryFood/3-2KitCat.png",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "cat",
+        "pd_name": "雞肉牛肉湯罐",
+        "price": "23",
+        "description": "富含多種營養素、全系列添加牛磺酸、嚴選食材 更好消化吸收。",
+        "categories": "Complementary_Food",
+        "attribute": {
+            "brand": "KitCat",
+            "name": "雞肉牛肉湯罐",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "70公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/cat/ComplementaryFood/4-1KitCat.png",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/cat/ComplementaryFood/4-2KitCat.png",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "cat",
+        "pd_name": "純鮪魚湯罐",
+        "price": "23",
+        "description": "富含多種營養素、全系列添加牛磺酸、嚴選食材 更好消化吸收。",
+        "categories": "Complementary_Food",
+        "attribute": {
+            "brand": "KitCat",
+            "name": "純鮪魚湯罐",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "70公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/cat/ComplementaryFood/5-1.png",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/cat/ComplementaryFood/5-2.png",
+                "img_value": ""
+            }
+        ]
+    }
+]

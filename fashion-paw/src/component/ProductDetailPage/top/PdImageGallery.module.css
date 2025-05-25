@@ -1,0 +1,56 @@
+.gallery{
+  /* background-color: aliceblue; */
+  margin-top: -15px;
+}
+  
+  .main {
+    display: flex;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .mainGallery {
+    display: block;
+    border: 1px solid black;
+  }
+  
+  .small {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .smallGallery {
+    /* 4圖左右margin-8px */
+    width: calc(25% - 8px); 
+  }
+
+.smallGallery:hover {
+  box-shadow: 2px 2px 5px lightgray;
+}
+  
+  img {
+    width: 100%;
+    object-fit: contain;
+    display: block;
+  }
+
+  .mainImageWrapper {
+    position: relative;
+  }
+
+  .zoomBox {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: 200% 200%;
+    border-radius: 50%; 
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    border: 2px solid #F1E3C2;
+    pointer-events:none;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+  }

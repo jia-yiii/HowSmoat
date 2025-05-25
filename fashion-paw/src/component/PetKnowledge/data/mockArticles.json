@@ -1,0 +1,162 @@
+{
+    "Novicefeeding": {
+        "dog": [
+            {
+                "id": 1,
+                "title": "如何選擇適合狗狗的飼料",
+                "summary": "挑選狗飼料時要注意蛋白質、脂肪與纖維含量，並根據年齡與活動量調整配方。",
+                "imageUrl": "/images/novice/dog1.jpg",
+                "date": "2025-04-10"
+            },
+            {
+                "id": 2,
+                "title": "自製狗狗健康副食食譜",
+                "summary": "簡單三步驟，教你用雞胸肉和地瓜做低脂副食，營養兼顧。",
+                "imageUrl": "/images/novice/dog2.jpg",
+                "date": "2025-04-03"
+            },
+            {
+                "id": 3,
+                "title": "狗狗第一次吃罐頭要注意什麼？",
+                "summary": "引入罐頭時要循序漸進，並觀察是否出現拉肚子或過敏反應。",
+                "imageUrl": "/images/novice/dog3.jpg",
+                "date": "2025-03-28"
+            },
+            {
+                "id": 4,
+                "title": "四",
+                "summary": "引入罐頭時要循序漸進，並觀察是否出現拉肚子或過敏反應。",
+                "imageUrl": "/images/novice/dog3.jpg",
+                "date": "2025-03-28"
+            },
+            {
+                "id": 5,
+                "title": "五",
+                "summary": "引入罐頭時要循序漸進，並觀察是否出現拉肚子或過敏反應。",
+                "imageUrl": "/images/novice/dog3.jpg",
+                "date": "2025-03-28"
+            },
+            {
+                "id": 6,
+                "title": "六",
+                "summary": "引入罐頭時要循序漸進，並觀察是否出現拉肚子或過敏反應。",
+                "imageUrl": "/images/novice/dog3.jpg",
+                "date": "2025-03-28"
+            },
+            {
+                "id": 7,
+                "title": "七",
+                "summary": "引入罐頭時要循序漸進，並觀察是否出現拉肚子或過敏反應。",
+                "imageUrl": "/images/novice/dog3.jpg",
+                "date": "2025-03-28"
+            }
+        ],
+        "cat": [
+            {
+                "id": 1,
+                "title": "貓咪飼料種類與選擇要點",
+                "summary": "乾飼料、濕飼料與生鮮糧比較，幫你挑出最適合家貓的配方。",
+                "imageUrl": "/images/novice/cat1.jpg",
+                "date": "2025-04-08"
+            },
+            {
+                "id": 2,
+                "title": "讓貓咪愛上的自製零食",
+                "summary": "利用鮪魚罐頭和燕麥粉，一次做好貓咪安全零食。",
+                "imageUrl": "/images/novice/cat2.jpg",
+                "date": "2025-04-01"
+            },
+            {
+                "id": 3,
+                "title": "第一次餵食貓咪罐頭的注意事項",
+                "summary": "建議混拌乾飼料讓貓咪逐步適應，並觀察牠的腸胃反應。",
+                "imageUrl": "/images/novice/cat3.jpg",
+                "date": "2025-03-25"
+            }
+        ],
+        "hamster": [
+            {
+                "id": 1,
+                "title": "倉鼠主糧與副食如何搭配？",
+                "summary": "正確的主糧＋少量新鮮蔬菜，保持纖維與水分平衡。",
+                "imageUrl": "/images/novice/hamster1.jpg",
+                "date": "2025-04-05"
+            },
+            {
+                "id": 2,
+                "title": "自製倉鼠零食：南瓜籽小餅乾",
+                "summary": "簡單烘烤方法，讓倉鼠吃得開心又安全。",
+                "imageUrl": "/images/novice/hamster2.jpg",
+                "date": "2025-03-30"
+            }
+        ],
+        "bird": [
+            {
+                "id": 1,
+                "title": "鳥類飼料選購指南",
+                "summary": "種子、顆粒飼料與新鮮蔬果該怎麼分配？",
+                "imageUrl": "/images/novice/bird1.jpg",
+                "date": "2025-04-02"
+            },
+            {
+                "id": 2,
+                "title": "手作鳥類小點心：水果串",
+                "summary": "用蘋果和葡萄串成小點心，訓練鳥兒動手拿取。",
+                "imageUrl": "/images/novice/bird2.jpg",
+                "date": "2025-03-27"
+            }
+        ]
+    },
+    "HealthCheck": {
+        "dog": [
+            {
+                "id": 1,
+                "title": "狗狗定期健康檢查項目",
+                "summary": "包含心臟、牙齒與體重檢測，及早發現潛在問題。",
+                "imageUrl": "/images/health/dog1.jpg",
+                "date": "2025-04-12"
+            },
+            {
+                "id": 2,
+                "title": "家用簡易體溫測量教學",
+                "summary": "掌握正確的狗狗測溫姿勢與正常體溫範圍。",
+                "imageUrl": "/images/health/dog2.jpg",
+                "date": "2025-04-06"
+            }
+        ],
+        "cat": [
+            {
+                "id": 1,
+                "title": "貓咪血檢前的準備事項",
+                "summary": "禁食時間與情緒安撫，讓報告更加精準。",
+                "imageUrl": "/images/health/cat1.jpg",
+                "date": "2025-04-11"
+            },
+            {
+                "id": 2,
+                "title": "貓咪耳朵清潔步驟",
+                "summary": "正確使用棉棒與耳藥劑，避免結石與感染。",
+                "imageUrl": "/images/health/cat2.jpg",
+                "date": "2025-04-04"
+            }
+        ],
+        "hamster": [
+            {
+                "id": 1,
+                "title": "倉鼠牙齒過長怎麼辦？",
+                "summary": "觀察啃咬習慣並使用磨牙石預防過長。",
+                "imageUrl": "/images/health/hamster1.jpg",
+                "date": "2025-04-07"
+            }
+        ],
+        "bird": [
+            {
+                "id": 1,
+                "title": "鳥類飛行羽毛保養指南",
+                "summary": "定期修剪與補充維生素，保持羽色亮麗。",
+                "imageUrl": "/images/health/bird1.jpg",
+                "date": "2025-04-03"
+            }
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+.checkListWrapper {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+}
+
+.checkRow {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+  color: #333;
+}
+
+.checkRow span:last-child {
+  font-weight: 500;
+}
+
+.divider {
+  border-top: 1px solid #eee0d0;
+  margin: 1rem 0;
+}
+
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #333;
+}
+
+.totalRow span:last-child {
+  color: #EC5B27; /* 紅橘色 */
+  font-weight: bold;
+  font-size: 1.15rem;
+}

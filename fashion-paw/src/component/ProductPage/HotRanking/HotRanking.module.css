@@ -1,0 +1,88 @@
+/* src/component/HotRanking/HotRanking.module.css */
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  flex-shrink: 0;
+  /* background-color: #FDF8F1;
+  border: 1px solid #E2CDB7; */
+  padding: 16px;
+  border-radius: 8px;
+  /* box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); */
+}
+
+.header {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #7A4B2A;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.imageWrapper {
+  width: 100px;      /* 改成你原本想要的寬度 */
+  height: 130px;     /* 改成你原本想要的高度 */
+  overflow: hidden;  /* 超出裁切 */
+  border-radius: 8px;/* 如果你要圓角，可自行調整或拿掉 */
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* 保持比例填滿、不會變形 */
+}
+.name {
+  margin: 8px 0;
+  font-size: 0.9rem;
+  text-align: center;
+  font-weight: 500;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -20px;
+}
+
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 4px;
+}
+
+.btn:active {
+  transform: scale(0.9);
+}
+
+/* 給 icon 按鈕簡單的 reset 樣式 */
+.iconBtn {
+  background: none;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price{
+  color: #e60023;
+  font-weight: bold;
+  font-size: 16px;
+}

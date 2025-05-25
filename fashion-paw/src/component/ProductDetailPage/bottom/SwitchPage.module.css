@@ -1,0 +1,33 @@
+.btnarea {
+    border: 1px solid rgba(108, 117, 125,0.7);
+    border-radius: 8px;
+    height: 40px;
+}
+
+.switchbtn {
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnClickingdesc {
+    background-color: #8DAA91;
+    color: #F7F0E7;
+    height: 40px;
+    border-radius: 8px 0 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnClickingseller {
+    background-color: #8DAA91;
+    color: #F7F0E7;
+    height: 40px;
+    border-radius: 0 8px 8px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

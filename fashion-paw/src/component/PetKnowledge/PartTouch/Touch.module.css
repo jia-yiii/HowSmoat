@@ -1,0 +1,273 @@
+.headerGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.petName {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.imageSwitcher {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.imgWrapper {
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: white;
+    width: 100%;
+    max-width: 500px;
+}
+
+.imgWrapper img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 左右切換三角形按鈕 */
+.triangleLeft,
+.triangleRight {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    cursor: pointer;
+}
+
+.triangleLeft {
+    border-right: 20px solid #b99a69;
+}
+
+.triangleRight {
+    border-left: 20px solid #b99a69;
+}
+
+/* 熱區：用 CSS 管懸停效果 */
+.hotspot {
+    position: absolute;
+    /* background-color: rgba(255, 192, 203, 0.5); */
+    /* pink 半透明 */
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 4px;
+}
+
+
+/* .hotspot:hover {
+    border-radius: 80px;
+    border-color: rgba(240, 98, 86, 0.6);
+    background-color: rgba(248, 160, 127, 0.2);
+} */
+
+/* CSS 懸停時，用 data-label 自動顯示小提示 */
+.hotspot:hover::after {
+    content: attr(data-label);
+    position: absolute;
+    top: -1.6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 2px 6px;
+    background: rgba(185, 154, 105, 0.75);
+    color: #fff;
+    border-radius: 4px;
+    white-space: nowrap;
+    font-size: .85rem;
+    pointer-events: none;
+    z-index: 10;
+    outline: 2px dashed #f9c74f;
+    outline-offset: -2px;
+    cursor: pointer;
+    animation: pulse 1s infinite;
+}
+
+
+.partDataWrapper {
+    max-width: 600px;
+    margin: 1rem auto 0;
+    padding: 0 1rem;
+    opacity: 0;
+    /* 預設隱藏 */
+    animation: slideInFade 0.4s ease-out forwards;
+    /* forwards: 動畫結束後保留最後一幀狀態 */
+}
+
+.partHeader {
+    display: block;
+    width: fit-content;
+    /* 寬度剛好包住文字 */
+    margin: 0 auto 2rem;
+    /* 置中；下方留 0.5rem */
+    font-size: 1.5rem;
+    font-weight: bold;
+    position: relative;
+
+    /* 只有下框線 */
+    border-bottom: 3px solid #CDB087;
+}
+
+.partHeader::before {
+    /* 左側放一個小腳印 */
+    content: "";
+    display: block;
+    position: absolute;
+    left: -1.5rem;
+    /* 你可以微調 */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1rem;
+    height: 1rem;
+    background: url('../images/pawicon.svg') no-repeat center / contain;
+}
+
+.contentRow {
+    display: flex;
+    justify-content: center;
+    /* 整體置中 */
+    align-items: flex-start;
+    /* 頂端對齊 */
+    gap: 2rem;
+    /* 兩邊間距 */
+    margin-top: 2rem;
+}
+
+/* 響應式 */
+@media (max-width: 768px) {
+    .contentRow {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .partDataWrapper {
+        width: 90%;
+        margin-top: 1rem;
+    }
+}
+
+
+/* 動畫區塊 */
+/* 腳掌浮動 */
+@keyframes floatPaw {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 0.6;
+    }
+
+    70% {
+        opacity: 0.1;
+    }
+
+    100% {
+        transform: translateY(-200px) scale(1.2);
+        opacity: 0;
+    }
+}
+
+.floatingPaw {
+    position: absolute;
+    top: 400px;
+    width: 40px;
+    height: 40px;
+    opacity: 0.6;
+    animation: floatPaw 6s ease-in infinite;
+}
+
+.floatingPaw:nth-child(1) {
+    left: 20%;
+    animation-delay: 0s;
+}
+
+.floatingPaw:nth-child(2) {
+    left: 50%;
+    animation-delay: 1s;
+}
+
+.floatingPaw:nth-child(3) {
+    left: 80%;
+    animation-delay: 3s;
+}
+
+
+/* 頁面淡入 */
+@keyframes slideInFade {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInScale {
+    0% {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.fadeIn {
+    animation: fadeInScale 0.6s ease forwards;
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+/* 切換圖片效果 */
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slideInRight {
+    animation: slideInRight 0.3s ease forwards;
+}
+
+.slideInLeft {
+    animation: slideInLeft 0.3s ease forwards;
+}

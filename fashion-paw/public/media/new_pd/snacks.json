@@ -1,0 +1,578 @@
+[
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "dog",
+        "pd_name": "雞胸肉犬貓凍乾零食",
+        "price": "180",
+        "description": "高蛋白低脂肪，幫助毛孩維持體態。優質蛋白質來源。",
+        "categories": "snacks",
+        "attribute": {
+            "brand": "汪喵星球",
+            "name": "雞胸肉犬貓凍乾零食",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "50公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/dog/snacks/1-1dcp_chicken.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/dog/snacks/1-2dcp_chicken.jpg",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "dog",
+        "pd_name": "雞肉鬆犬貓凍乾零食",
+        "price": "180",
+        "description": "高蛋白低脂肪，幫助毛孩維持體態。優質蛋白質來源。",
+        "categories": "snacks",
+        "attribute": {
+            "brand": "汪喵星球",
+            "name": "雞肉鬆犬貓凍乾零食",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "50公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/dog/snacks/2-1dcp_chickenfloss.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/dog/snacks/2-2dcp_chickenfloss.jpg",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "dog",
+        "pd_name": "咬咬雞胗犬貓凍乾零食",
+        "price": "180",
+        "description": "高蛋白低脂肪，幫助毛孩維持體態。優質蛋白質來源。",
+        "categories": "snacks",
+        "attribute": {
+            "brand": "汪喵星球",
+            "name": "雞咬咬雞胗犬貓凍乾零食",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "50公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/dog/snacks/3-1dcp_chickengizzards.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/dog/snacks/3-2dcp_chickengizzardss.jpg",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "dog",
+        "pd_name": "筋肉胸雞丁凍乾(貓狗零食)",
+        "price": "250",
+        "description": "口感酥脆，老犬貓及牙口不好毛孩非常適合食用 ; 可獎勵訓練用、可誘食或撥撒在飼料營養補充 ; 泡水還原成鮮肉增加毛孩攝水量 ; 凍乾全系列商品，適合8個月以上犬貓食用。",
+        "categories": "snacks",
+        "attribute": {
+            "brand": "派庫廚房Petcook",
+            "name": "筋肉胸雞丁凍乾(貓狗零食)",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "50公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/dog/snacks/4-1petcook_chicken.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/dog/snacks/4-2petcook_chicken.jpg",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "dog",
+        "pd_name": "香濃雞肉圈",
+        "price": "199",
+        "description": "台灣製造/嚴選食材/品質安心;我們堅持選用台灣國產及紐澳食材，台灣在地生產製造。使用人類等級食材，提供寵物優質零食。製程嚴格，專業生產殺菌設備，減少病原孳生。不添加防腐劑，寵物吃得開心，飼主也安心。",
+        "categories": "snacks",
+        "attribute": {
+            "brand": "天目雷",
+            "name": "香濃雞肉圈",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "160公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/dog/snacks/5-1skyeye_chickencircle.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/dog/snacks/5-2skyeye_chickencircle.jpg",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "cat",
+        "pd_name": "啾嚕迷你捲心塊(鮪魚)",
+        "price": "59",
+        "description": "不添加防腐劑、添加綠茶消臭成分、餅乾內有滿滿的啾嚕肉泥、易於餵食、易於食用的零食。",
+        "categories": "snacks",
+        "attribute": {
+            "brand": "CIAO",
+            "name": "啾嚕迷你捲心塊(鮪魚)",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "36公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/cat/snacks/1-1.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/cat/snacks/1-2.jpg",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "cat",
+        "pd_name": "啾嚕迷你捲心塊(雞肉)",
+        "price": "59",
+        "description": "不添加防腐劑、添加綠茶消臭成分、餅乾內有滿滿的啾嚕肉泥、易於餵食、易於食用的零食。",
+        "categories": "snacks",
+        "attribute": {
+            "brand": "CIAO",
+            "name": "啾嚕迷你捲心塊(雞肉)",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "36公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/cat/snacks/2-1.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/cat/snacks/2-2.jpg",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "cat",
+        "pd_name": "啾嚕迷你捲心塊(鮪魚干貝)",
+        "price": "59",
+        "description": "不添加防腐劑、添加綠茶消臭成分、餅乾內有滿滿的啾嚕肉泥、易於餵食、易於食用的零食。",
+        "categories": "snacks",
+        "attribute": {
+            "brand": "CIAO",
+            "name": "啾嚕迷你捲心塊(鮪魚干貝)",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "36公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/cat/snacks/3-1.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/cat/snacks/3-2.jpg",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "cat",
+        "pd_name": "啾嚕迷你捲心塊(鰹魚)",
+        "price": "59",
+        "description": "不添加防腐劑、添加綠茶消臭成分、餅乾內有滿滿的啾嚕肉泥、易於餵食、易於食用的零食。",
+        "categories": "snacks",
+        "attribute": {
+            "brand": "CIAO",
+            "name": "啾嚕迷你捲心塊(鰹魚)",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "36公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/cat/snacks/4-1.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/cat/snacks/4-2.jpg",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "cat",
+        "pd_name": "啾嚕肉泥(雞肉甜蝦)",
+        "price": "49",
+        "description": "添加綠茶消臭成分，有助於減少貓咪糞便的異味。條狀包裝，增加餵食的便利性。可增加與貓咪互動性的零食。依貓咪各成長階段需求調配的專屬配方。",
+        "categories": "snacks",
+        "attribute": {
+            "brand": "CIAO",
+            "name": "啾嚕肉泥(雞肉甜蝦)",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "56公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/cat/snacks/5-1.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/cat/snacks/5-2.jpg",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "mouse",
+        "pd_name": " HP｜倉鼠用零食（不含麩質•糖類)",
+        "price": "149",
+        "description": "不含麵粉及砂糖，美味又健康。添加益生菌及葡萄糖胺幫助腸胃、關節健康和維持元氣。安全安心國產無著色。",
+        "categories": "snacks",
+        "attribute": {
+            "brand": "蒙布朗",
+            "name": " HP｜倉鼠用零食（不含麩質•糖類)",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "60公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/mouse/snacks/1-1monbrown_HPsnack.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/mouse/snacks/1-2monbrown_HPsnack.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/mouse/snacks/1-3monbrown_HPsnack.jpg",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "mouse",
+        "pd_name": " Republic 100%小動物用營養肉泥",
+        "price": "149",
+        "description": "專為小動物所設計，以日本鳥取縣知名奧大山的純淨天然水為美味基底，加入小動物喜愛的各式風味，是小夥伴最美味的饗宴。每條產品皆含有100億個乳酸菌 添加多種機能成分，保護毛孩的健康 幫助關節保養 — 葡萄糖胺、軟骨素 減少精神疲勞 — 牛磺酸 保持毛髮光澤、舒緩皮膚不適 — 魚油EPA DHA 預防口腔及下泌尿道疾病 — 蔓越莓",
+        "categories": "snacks",
+        "attribute": {
+            "brand": "Riverd",
+            "name": " Republic 100%小動物用營養肉泥",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "30公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/mouse/snacks/2-1riverdrepublic_meatpaste_chicken.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/mouse/snacks/2-2riverdrepublic_meatpaste_chicken.jpg",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "mouse",
+        "pd_name": "吃蔬果長大的凍乾麵包蟲",
+        "price": "79",
+        "description": "為挑食的小寶貝所準備的香甜麵包蟲，吃蔬果長大的蟲蟲將油耗味有效降低的同時也讓它本身更為香甜。經特殊工法處理，更能鎖住其體內豐富的蛋白質及天然香氣，殺菌完全，營養不流失！噗噠屎官：特別為我們家噠噠開發的產品，比起市售一般油炸或是烘乾的麵包蟲更加的營養又好吃。",
+        "categories": "snacks",
+        "attribute": {
+            "brand": "噗噗噠噠",
+            "name": "吃蔬果長大的凍乾麵包蟲",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "8公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/mouse/snacks/3-1pupudada_mealworms.jpg",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "mouse",
+        "pd_name": "凍乾拌拌粉起司口味",
+        "price": "179",
+        "description": "擁有起司完整養分，冷凍乾燥讓食材風味更明,顯先凍乾再磨粉，鎖住營養！日常輕鬆補充毛孩所需鈣質、蛋白質的好零食！",
+        "categories": "snacks",
+        "attribute": {
+            "brand": "噗噗噠噠",
+            "name": "凍乾拌拌粉起司口味",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "20公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/mouse/snacks/4-1pupudada_cheesepowder.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/mouse/snacks/4-2pupudada_cheesepowder.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/mouse/snacks/4-3pupudada_cheesepowder.jpg",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "mouse",
+        "pd_name": "天然日曬小米穗",
+        "price": "115",
+        "description": "來自台灣大自然的美味，經過陽光自然曬乾，保留了豐富的營養和香氣，適合倉鼠、鳥類等小型寵物，讓牠們享受自然原味的美食。",
+        "categories": "snacks",
+        "attribute": {
+            "brand": "噗噗噠噠",
+            "name": "天然日曬小米穗",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "100公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/mouse/snacks/5-1pupudada_milletspike.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/mouse/snacks/5-2pupudada_milletspike.jpg",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "bird",
+        "pd_name": "美國樂飛寶特級鳥萃果爆米花口味點心",
+        "price": "270",
+        "description": "樂飛寶寵物鳥飼料由鳥類醫學的開創始祖Dr. T.J.Lafeber及其頂尖獸醫師與營養學家共同研發製成，兼具營養及玩樂性的球型飼料，不僅確保寵物鳥的健康，並增添愛鳥的進食樂趣。特級鳥萃果主食飼料採非基改食材，含有未磨碎的去殼穀物種子，富含豐富的穀物、花生等，保留完整天然的營養與風味，且讓愛鳥享受如在野外啃咬種子及穀物的樂趣。並添加維他命、礦物質、胺基酸、Omega 3及6等等，使愛鳥獲取完整及均衡的營養。",
+        "categories": "snacks",
+        "attribute": {
+            "brand": "鸚鵡小木屋",
+            "name": "美國樂飛寶特級鳥萃果爆米花口味點心",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": ""
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/bird/snacks/1-1birdwoodhouse_popcorn.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/mouse/snacks/1-2birdwoodhouse_popcorn.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/mouse/snacks/1-3birdwoodhouse_popcorn.jpg",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "bird",
+        "pd_name": "純天然無殼核桃",
+        "price": "195",
+        "description": "核桃最主要的營養價值在於這種堅果他們具有天然的抗發炎的特性，這種天然的食物是屬於胡桃屬植物的種子，也因為他們的外表長得有點像人類的大腦，有像是大腦一樣皺紋的外表，所以說他們也一直被象徵聰明與智慧，後來相關學者研究也證明了這種食物確實對大腦很不錯，他們擁有65%的脂肪以及15%的蛋白質，除此之外更特別的是他們富含叫做亞油酸的脂肪酸，對於生物體的心臟、骨骼、大腦都很不錯！對於鳥類來說更是一種他們非常喜歡的零食，適用於全部的鳥種，但是這種食物的油脂含量較高，如果平時鸚鵡的運動量較為不足，應減少提供的量，才不會導致過胖的問題發生！",
+        "categories": "snacks",
+        "attribute": {
+            "brand": "鸚鵡小木屋",
+            "name": "純天然無殼核桃",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "120公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/bird/snacks/2-1birdwoodhouse_Walnut.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/mouse/snacks/2-2birdwoodhouse_Walnut.jpg",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "bird",
+        "pd_name": "台灣本土鳳梨果乾",
+        "price": "200",
+        "description": "採用「台灣果農」在地種植嚴選鳳梨，以低溫烘焙的方式製成，不破壞蔬果的營養將天然果香風味100%完整鎖在果乾當中！",
+        "categories": "snacks",
+        "attribute": {
+            "brand": "鸚鵡小木屋",
+            "name": "台灣本土鳳梨果乾",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "90公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/bird/snacks/3-1birdwoodhouse_pineapple.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/mouse/snacks/3-2birdwoodhouse_pineapple.jpg",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "bird",
+        "pd_name": "純天然熟化腰果",
+        "price": "195",
+        "description": "使用方法：置於飼料盒中供愛鳥自行取用，並給予乾淨水源。保存期限：兩個月;保存方式：本產品為天然種子，開封後未食用完畢建議置於冷藏。",
+        "categories": "snacks",
+        "attribute": {
+            "brand": "鸚鵡小木屋",
+            "name": "純天然熟化腰果",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": "120公克"
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/bird/snacks/4-1birdwoodhouse_cashew.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/mouse/snacks/4-2birdwoodhouse_cashew.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/mouse/snacks/4-3birdwoodhouse_cashew.jpg",
+                "img_value": ""
+            }
+        ]
+    },
+    {
+        "condition": "new",
+        "status": 1,
+        "pet_type": "bird",
+        "pd_name": "高品質夏威夷豆",
+        "price": "320",
+        "description": "約6000年前起，夏威夷豆就是在亞熱帶雨林中的原生作物，原產地是澳洲，是澳洲原住民自古以來用作預防血栓的民間用藥，由於美國人引進夏威夷大量種植，許多人以為是夏威夷的特產，而有了夏威夷豆這個名字，不過事實上，至今澳洲仍是夏威夷豆最大的生產地。 （文章擷取自早安健康）",
+        "categories": "snacks",
+        "attribute": {
+            "brand": "鸚鵡小木屋",
+            "name": "高品質夏威夷豆",
+            "model": "",
+            "pattern": "",
+            "size": "",
+            "color": "",
+            "weight": ""
+        },
+        "images": [
+            {
+                "img_path": "/media/new_pd/bird/snacks/5-1birdwoodhouse_hawaiianbeans.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/mouse/snacks/5-2birdwoodhouse_hawaiianbeans.jpg",
+                "img_value": ""
+            },
+            {
+                "img_path": "/media/new_pd/mouse/snacks/5-3birdwoodhouse_hawaiianbeans.jpg",
+                "img_value": ""
+            }
+        ]
+    }
+]

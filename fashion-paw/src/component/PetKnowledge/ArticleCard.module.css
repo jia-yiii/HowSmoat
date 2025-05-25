@@ -1,0 +1,67 @@
+/* src/components/ArticleCard.module.css */
+
+.card {
+  display: flex;
+  align-items: stretch;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 20px;
+  color: black;
+  transition: transform 0.3s ease, opacity 1s ease, color 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10%);
+  color: #988450;
+  text-decoration: none;
+}
+
+.noHover:hover {
+  /* 詳情模式：關閉所有 hover 變化 */
+  transform: none !important;
+  background: none !important;
+  color: inherit !important;
+  cursor: default !important;
+}
+
+.info {
+  padding: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.info p {
+  color: #6c757d;
+}
+
+.date {
+  font-size: 0.875rem;
+  color: #999;
+  margin-bottom: 0.5rem;
+}
+
+.typeLabel {
+  font-size: 0.75rem;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.summary {
+  flex: 1;
+}
+.thumb {
+  width: 150px;       /* 固定寬度 */
+  height: 100%;      /* 固定高度 */
+  object-fit: cover;  /* 超出部分裁切，保留比例 */
+  border-radius: 4px; /* 可選：圓角 */
+  display: block;
+}
+.bannerUrl{
+  display: block;
+}

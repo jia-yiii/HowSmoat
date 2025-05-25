@@ -1,0 +1,111 @@
+/* ShoppingCartPage.module.css - 溫柔療癒風格（圓角 + 豆沙綠 / 奶茶色） */
+
+
+/* 🟢 主色調 */
+:root {
+  --soft-green: #8DAA91;
+  --milk-tea: #F1E4D1;
+  --light-brown: #C4A484;
+  --light-border: #E0DAD0;
+  --hover-shadow: rgba(0, 0, 0, 0.05);
+}
+
+.pageWrapper {
+  background-color: #fff;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin-bottom: 3rem;
+}
+
+.cooponcart {
+  max-width: 280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sectionTitle {
+  background-color: #F3E9DB;
+  color: #87512D;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.75rem 0.75rem 0.75rem 0.75rem;
+  font-size: 1.25rem;
+  margin-bottom: 10px;
+}
+
+.cartBlock {
+  border: 1px solid var(--light-border);
+  border-radius: 0.75rem 0.75rem 0.75rem 0.75rem;
+  padding: 0.2rem 1rem 1.5rem 1rem;
+  background-color: #fff;
+  margin-bottom: 1.5rem;
+
+}
+
+.cartinsidetitle {
+  font-weight: 500;
+  font-size: 20px;
+  padding-top: 20px;
+  /* padding-left: 66px; */
+  width: 100%;
+  text-align: center;
+}
+
+.itemCard {
+  border-bottom: 1px solid var(--light-border);
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.itemImage {
+  width: 90px;
+  height: 90px;
+  border-radius: 0.5rem;
+  object-fit: cover;
+}
+
+.itemInfo {
+  flex-grow: 1;
+}
+
+.itemPrice {
+  color: #e60023;
+  font-weight: bold;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 0.5rem;
+}
+
+.confirmButton {
+  background-color: var(--soft-green);
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.75rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.confirmButton:hover {
+  background-color: #7d9b82;
+  box-shadow: 0 4px 8px var(--hover-shadow);
+}
+
+.emptyCartNotice {
+  background-color: #fdfaf5;
+  border: 1px dashed var(--light-brown);
+  padding: 2rem;
+  text-align: center;
+  color: var(--soft-green);
+  border-radius: 1rem;
+  margin-top: 2rem;
+}

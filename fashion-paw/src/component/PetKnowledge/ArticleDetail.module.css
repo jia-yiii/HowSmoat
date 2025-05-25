@@ -1,0 +1,80 @@
+/* 最外層 container：左右並排 */
+.container {
+  display: flex;
+  gap: 1.5rem;
+  margin-left: 30px;
+  margin-right: 20px;
+}
+
+/* 側邊欄已在 Sidebar.module.css 處理，這邊只管主內容 */
+.detailWrapper {
+  flex: 1;               /* 佔滿剩餘空間 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* 置中 */
+  padding-bottom: 4rem;  /* 下方留空，避免 footer 蓋住 */
+}
+
+/* 1. 放在最上方的大圖 */
+.mainImage {
+  width: 100%;           /* 滿寬度 */
+  max-width: 800px;      /* 最多不要超過 800px */
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  object-fit: cover;
+}
+
+/* 2. 標題區 */
+.header {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 1rem;
+}
+.title {
+  font-size: 2rem;
+  margin: 0;
+}
+.meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+/* 3. 簡介 */
+.summary {
+  width: 100%;
+  max-width: 800px;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  color: #444;
+}
+
+/* 4. 章節 */
+.sections {
+  width: 100%;
+  max-width: 800px;
+}
+.section {
+  margin-bottom: 2rem;
+}
+.secHeading {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+.secBody {
+  line-height: 1.8;
+  color: #333;
+}
+
+
+/* Loading 樣式 */
+.loading {
+  padding: 2rem;
+  font-size: 1.2rem;
+  color: #888;
+}

@@ -1,0 +1,56 @@
+.headerWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 3rem 0 1rem;
+}
+
+.title {
+  display: inline-flex;
+  align-items: center;
+  gap: .5rem;
+  color: #87512D;
+}
+
+.icon {
+  width: 2rem;
+}
+
+.card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imageWrapper {
+  position: relative;
+  height: 0;
+  padding-bottom: 66%;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #E1C599;
+  transition: opacity .3s;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}

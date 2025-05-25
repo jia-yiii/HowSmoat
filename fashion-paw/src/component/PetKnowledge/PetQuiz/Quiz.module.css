@@ -1,0 +1,209 @@
+/* Quiz.module.css */
+
+.quizContainer {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+    margin-bottom: 2rem;
+    background-image: url('./QuizBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #fefdf9;
+}
+
+.selectorBox {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.6s ease-in-out;
+    backdrop-filter: blur(6px);
+    z-index: 1;
+    border: 2px solid #f2d490;
+    /* 淡淡的金黃色框 */
+    outline: 3px solid rgba(255, 255, 255, 0.1);
+    /* 柔光 */
+}
+
+.titleIcon {
+    display: block;
+    width: 50px;
+    margin: 0 auto 1rem;
+}
+
+.footerIcon {
+    display: block;
+    width: 120px;
+    margin: 2rem auto 0;
+    transition: transform 0.4s ease;
+}
+
+.dialogBox {
+    position: absolute;
+    bottom: 160px;
+    right: 20px;
+    background-color: #fffef4;
+    border: 2px solid #e6c16c;
+    border-radius: 12px;
+    padding: 10px 14px;
+    max-width: 200px;
+    font-size: 14px;
+    animation: popIn 0.4s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.startBtn {
+    background-color: #f8c74f;
+    border: none;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, background-color 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);
+}
+
+.startBtn:hover {
+    background-color: #ffd84f;
+    transform: scale(1.08);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 過場動畫區 */
+.transitionOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255, 250, 230, 0.95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.jumpIn {
+    width: 120px;
+    animation: jump 1s ease-in-out;
+    z-index: 1001;
+}
+
+@keyframes jump {
+    0% {
+        transform: scale(0.5) translateY(100px);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.2) translateY(-20px);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1) translateY(0);
+    }
+}
+
+.spotlight {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 255, 200, 0.8) 0%, transparent 70%);
+    animation: fadeIn 1s ease-in;
+    z-index: 1000;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes popIn {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Selector Controls */
+.selectorControls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.selectorLabel {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.triangleBtn {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    cursor: pointer;
+    background: none;
+}
+
+.triangleLeft {
+    border-width: 15px 20px 15px 0;
+    border-color: transparent #e8a100 transparent transparent;
+}
+
+.triangleRight {
+    border-width: 15px 0 15px 20px;
+    border-color: transparent transparent transparent #e8a100;
+}
+
+.triangleBtn:hover {
+    filter: brightness(1.2);
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+
+/* 可擴充的滑動動畫 class，選擇器元件可動態加上 */
+.slide-left {
+    animation: slideLeft 0.5s forwards;
+}
+
+.slide-right {
+    animation: slideRight 0.5s forwards;
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+}

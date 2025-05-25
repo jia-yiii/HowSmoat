@@ -1,0 +1,234 @@
+.moveimg {
+    position: absolute;
+    top: 550px;
+    left: 0%;
+    height: 100px;
+    width: 100px;
+
+}
+
+
+.moveing {
+    animation-name: gotoright;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes gotoright {
+    0% {
+        left: 0%
+    }
+
+
+    20% {
+        top: 430px
+    }
+
+    30% {
+        top: 630px
+    }
+
+    45% {
+        top: 430px
+    }
+
+    60% {
+        top: 630px
+    }
+
+    100% {
+        left: 83%
+    }
+}
+
+@keyframes tiltAndBack {
+    0% {
+        transform: scaleX(1)
+            /* 初始狀態，不翻轉 */
+            translateY(0);
+        opacity: 0;
+    }
+
+    25% {
+        transform: scaleX(-1) translateY(-20px);
+        opacity: 0.5;
+    }
+
+    40% {
+        transform: scaleX(1) translateY(-25px);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: scaleX(-1) translateY(-30px);
+        opacity: 1;
+    }
+
+    60% {
+        transform: scaleX(1) translateY(-25px)
+    }
+
+    75% {
+        transform: scaleX(-1) translateY(-20px)
+    }
+
+
+    100% {
+        transform: scaleX(1) translateY(0px);
+    }
+
+}
+
+.first_box,
+.two_box,
+.three_box,
+.four_box {
+    width: 200px;
+    height: 145px;
+    position: absolute;
+    visibility: hidden;
+    /* top: 10%;
+    left: 20%; */
+    border: 1px #70823C solid;
+    border-radius: 10px;
+    background-color: #F7F0E7;
+}
+
+.first_box:hover,
+.two_box:hover,
+.three_box:hover,
+.four_box:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+}
+
+.three_box {
+    top: 330px;
+    left: 50%;
+}
+
+.four_box {
+    top: 710px;
+    left: 65%;
+}
+
+
+.two_box {
+    top: 710px;
+    left: 35%;
+
+}
+
+.first_box {
+    top: 330px;
+    left: 20%;
+}
+
+.boxContent {
+    text-align: center;
+    padding: 15px;
+}
+
+.boxContentdetail{
+
+}
+
+.dancebox {
+    animation-name: tiltAndBack;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+.aboutusdera {
+    text-decoration: none;
+    /* 拿掉底線 */
+    color: #3d2d1b;
+    /* 更改超連結文字顏色 */
+}
+
+.aboutusdera:hover {
+    text-decoration: none;
+    /* 拿掉底線 */
+    color: #b38567;
+    /* 更改超連結文字顏色 */
+}
+
+@keyframes dogrun {
+    0% {
+        transform: translateX(30px);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateX(-30px);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 0;
+    }
+}
+
+.dogruning {
+    animation: dogrun 1s forwards
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+}
+
+.fade-up {
+    animation: fadeUp 0.6s ease-out forwards;
+}
+
+
+@keyframes bushFadeOut {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(0.6);
+    }
+}
+
+.bush-disappear {
+    animation: bushFadeOut 0.6s ease-out forwards;
+}
+
+.kusa {
+    width: 180px;
+    height: 200px;
+    position: absolute;
+}
+
+#kusa1 {
+    top: 330px;
+    left: 20%;
+}
+
+#kusa3 {
+    top: 330px;
+    left: 50%;
+}
+
+#kusa2 {
+    top: 700px;
+    left: 35%;
+}
+
+#kusa4 {
+    top: 700px;
+    left: 65%;
+}

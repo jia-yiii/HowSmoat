@@ -1,0 +1,21 @@
+自訂scss使用說明
+
+1. 在終端機下sass/scss指令
+   npm install --save-dev sass
+
+2. 在src/index.js
+   把這兩行
+   import './styles/main.scss';
+   import './styles/custom.css';
+   加在
+   import ReactDOM from 'react-dom/client';
+   這行的後面
+   並且把
+   import './index.css';
+   刪除或註解掉
+
+3. 在src/App.js
+   把import 'bootstrap/dist/css/bootstrap.min.css';
+   刪除或註解掉
+
+4. 直接使用src/styles/custom.css裡面的類別

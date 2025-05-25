@@ -1,0 +1,24 @@
+.chatroom{
+    width: 300px;
+    overflow-y: auto;    /* 垂直捲動 */
+    overflow-x: hidden;  /* 水平不要捲動 */
+    height: 400px;
+    background-color: aquamarine;
+}
+
+.chat{
+    width: 300px;
+    height: 100px;
+    background-color: darkgray;
+    color: black;
+}
+
+.chatinner{
+    width: auto;
+    height: auto;
+    background-color: gray;
+    margin: 10px;
+    padding: 5px;
+    color: white;
+    word-wrap: break-word;
+}

@@ -1,0 +1,44 @@
+/* RecommendedProducts.module.css */
+
+.container {
+    margin: 2rem 0;
+  }
+  
+  .list {
+    display: flex;
+    gap: 1rem;
+    /* 如果想要一行最多 3 張，可以加： */
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex: 1 1 30%;
+    max-width: 280px;
+    min-width: 240px;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin: 0 auto 0.5rem;
+  }
+  /* 把按鈕包在這個容器裡，就能置中 */
+  .btnContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+
+  .price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #ECC978;
+  margin: 0;
+}
+  

@@ -1,0 +1,37 @@
+.buydetail{
+  border: 1px solid #E0DAD0;
+  background-color: #F3E9DB;
+  color: #8DAA91;
+  font-weight: bold;
+  height: 55px;
+  cursor: pointer;
+  border-radius: 0.75rem 0.75rem 0 0;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+}
+.buydetail:hover{
+  background-color: #E9D1B0;
+}
+
+.buydetailcontent{
+  border: 1px solid #E0DAD0;
+  border-radius: 0 0 0.75rem 0.75rem;
+}
+
+.linknameReset{
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+/* .price{
+  color: #ECC978;
+  font-size: 16px;
+  font-weight: bold;
+} */
+.totalprice{
+  color: #EC5B27;
+  font-size: 16px;
+  font-weight: bold;
+}

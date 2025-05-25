@@ -1,0 +1,8 @@
+.myCustomTable tbody tr:nth-of-type(odd) {
+  background-color: #F7F0E7; 
+}
+
+.tableprimary {
+  background-color: #E1C599 ; 
+  color: #000; 
+}

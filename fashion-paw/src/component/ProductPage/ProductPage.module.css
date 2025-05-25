@@ -1,0 +1,57 @@
+
+/* 外層 flex: 左邊主內容 / 右邊排行 */
+.pageWrapper {
+  display: flex;
+  gap: 30px;
+  max-width: 1440px;  /* 關鍵！限制整體寬度 */
+  margin: 0 auto 3rem auto;     /* 水平置中 */
+  padding: 24px 32px;
+  box-sizing: border-box;
+}
+
+/* 左側主內容撐滿剩餘空間 */
+.mainContent {
+  flex: 1.2;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 280px - 32px);
+  padding-left: 100px;
+}
+
+/* filterBar, topBar, content 如之前不變 */
+.filterBar {
+  margin-bottom: 16px;
+}
+
+.topBar {
+  display: flex;
+  align-items: center;     /* ✨ 垂直置中 */
+  justify-content: flex-end;
+  gap: 12px;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+
+.content {
+  display: flex;
+  gap: 16px;
+}
+
+.sidebar {
+  width: 220px;
+  flex-shrink: 0;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 右側 heat ranking 固定寬度 */
+.rankingSection {
+  width: 280px;
+  /* 或你想要的寬度 */
+  flex-shrink: 0;
+}

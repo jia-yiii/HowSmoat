@@ -1,0 +1,386 @@
+/* 字型大小 */
+/* 基本上會使用的 h3-h5標籤(落在20-12px的大小) */
+
+.ptxt1 {
+    font-size: 32px;
+}
+
+.ptxtb1 {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.ptxt2 {
+    font-size: 24px;
+}
+
+.ptxtb2 {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.ptxt3 {
+    font-size: 18px;
+}
+
+.ptxtb3 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ptxt4 {
+    font-size: 16px;
+}
+
+.ptxtb4 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.ptxt5 {
+    font-size: 12px;
+}
+
+.ptxtb5 {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* -----背景顏色----- */
+/* 橘黃色系列 */
+.paw-bg-darkorange {
+    background-color: #DDB227;
+}
+
+.paw-bg-middleorange {
+    background-color: #ECC978;
+}
+
+.paw-bg-lightorange {
+    background-color: #E9D1B0;
+}
+
+/* 咖啡米色系列 */
+.paw-bg-pri-darkbrown {
+    background-color: #E1C599;
+}
+
+.paw-bg-middlebrown {
+    background-color: #F1E3C2;
+}
+
+.paw-bg-lightbrown {
+    background-color: #F7F0E7;
+}
+
+.paw-bg-lightenbrown {
+    background-color: #F7F6EE;
+}
+
+/* 深土綠色系列 */
+.paw-bg-pri-darkgreen {
+    background-color: #70823C;
+}
+
+.paw-bg-middlegreen {
+    background-color: #988450;
+}
+
+.paw-bg-lightgreen {
+    background-color: #A4992A;
+}
+
+/* 粉色系列 */
+.paw-bg-pink {
+    background-color: #F06256;
+}
+
+.paw-bg-lightorangepink {
+    background-color: #F8A07F;
+}
+
+/* 灰色直接使用Bootstrap的屬性使用
+   ex.說明文字or區塊or邊框(深)--bs-gray-600: #6c757d;、
+      說明文字or區塊or邊框(淺)--bs-gray-400: #ced4da
+ */
+
+
+/* -----文字顏色----- */
+.paw-text-black {
+    color: black
+}
+
+.paw-text-darkgray {
+    color: #6c757d;
+}
+
+.paw-text-lightgray {
+    color: #ced4da;
+}
+
+/* 粉色系列 */
+.paw-text-pink {
+    color: #F06256;
+}
+
+.paw-text-lightorangepink {
+    color: #F8A07F;
+}
+
+/* 橘黃色系列 */
+.paw-text-darkorange {
+    color: #DDB227;
+}
+
+.paw-text-middleorange {
+    color: #ECC978;
+}
+
+.paw-text-lightorange {
+    color: #E9D1B0;
+}
+
+/* 咖啡米色系列 */
+.paw-text-darkbrown {
+    color: #E1C599;
+}
+
+.paw-text-middlebrown {
+    color: #F1E3C2;
+}
+
+.paw-text-lightbrown {
+    color: #F7F0E7;
+}
+
+.paw-text-lightenbrown {
+    color: #F7F6EE;
+}
+
+/* 深土綠色系列 */
+.paw-text-darkgreen {
+    color: #70823C;
+}
+
+.paw-text-middlegreen {
+    background-color: #988450;
+}
+
+.paw-text-lightgreen {
+    color: #A4992A;
+}
+
+/* -----按鈕----- */
+/* 橘黃色系列 */
+.paw-btn-darkorange {
+    background-color: #DDB227;
+}
+
+.paw-btn-middleorange {
+    background-color: #ECC978;
+}
+
+.paw-btn-lightorange {
+    background-color: #E9D1B0;
+}
+
+/* 咖啡米色系列 */
+.paw-btn-darkbrown {
+    background-color: #E1C599;
+}
+
+.paw-btn-middlebrown {
+    background-color: #F1E3C2;
+}
+
+.paw-btn-lightbrown {
+    background-color: #F7F0E7;
+}
+
+.paw-btn-lightenbrown {
+    background-color: #F7F6EE;
+}
+
+/* 深土綠色系列 */
+.paw-btn-darkgreen {
+    background-color: #70823C;
+}
+
+.paw-btn-middlegreen {
+    background-color: #988450;
+}
+
+.paw-btn-lightgreen {
+    background-color: #A4992A;
+}
+
+/* 粉色系列 */
+.paw-btn-pink {
+    background-color: #F06256;
+}
+
+.paw-btn-lightorangepink {
+    background-color: #F8A07F;
+}
+
+/* -----按鈕_outline----- */
+/* 引用btn paw-btn-outline-darkorange就好了，不用再引用hover、focus */
+/* 橘黃色系列 */
+/* --paw-btn-outline-darkorange-- */
+.paw-btn-outline-darkorange {
+    color: #DDB227;
+    border-color: #DDB227;
+}
+
+.paw-btn-outline-darkorange:hover,
+.paw-btn-outline-darkorange:focus {
+    background-color: #DDB227;
+    color: #ffffff;
+    border-color: #DDB227;
+}
+
+/* --paw-btn-outline-middleorange-- */
+.paw-btn-outline-middleorange {
+    color: #ECC978;
+    border-color: #ECC978;
+}
+
+.paw-btn-outline-middleorange:hover,
+.paw-btn-outline-middleorange:focus {
+    background-color: #ECC978;
+    color: #ffffff;
+    border-color: #ECC978;
+}
+
+/* --paw-btn-outline-lightorange-- */
+.paw-btn-outline-lightorange {
+    color: #E9D1B0;
+    border-color: #E9D1B0;
+}
+
+.paw-btn-outline-lightorange:hover,
+.paw-btn-outline-lightorange:focus {
+    background-color: #E9D1B0;
+    color: #ffffff;
+    border-color: #E9D1B0;
+}
+
+/* 咖啡米色系列 */
+/* --paw-btn-outline-pri-darkbrown-- */
+.paw-btn-outline-pri-darkbrown {
+    color: #E1C599;
+    border-color: #E1C599;
+}
+
+.paw-btn-outline-pri-darkbrown:hover,
+.paw-btn-outline-pri-darkbrown:focus {
+    background-color: #E1C599;
+    color: #ffffff;
+    border-color: #E1C599;
+}
+
+/* --paw-btn-outline-middlebrown-- */
+.paw-btn-outline-middlebrown {
+    color: #F1E3C2;
+    border-color: #F1E3C2;
+}
+
+.paw-btn-outline-middlebrown:hover,
+.paw-btn-outline-middlebrown:focus {
+    background-color: #F1E3C2;
+    color: #ffffff;
+    border-color: #F1E3C2;
+}
+
+/* --paw-btn-outline-lightbrown-- */
+.paw-btn-outline-lightbrown {
+    color: #F7F0E7;
+    border-color: #F7F0E7;
+}
+
+.paw-btn-outline-lightbrown:hover,
+.paw-btn-outline-lightbrown:focus {
+    background-color: #F7F0E7;
+    color: #ffffff;
+    border-color: #F7F0E7;
+}
+
+/* --paw-btn-outline-lightenbrown-- */
+.paw-btn-outline-lightenbrown {
+    color: #F7F6EE;
+    border-color: #F7F6EE;
+}
+
+.paw-btn-outline-lightenbrown:hover,
+.paw-btn-outline-lightenbrown:focus {
+    background-color: #F7F6EE;
+    color: #ffffff;
+    border-color: #F7F6EE;
+}
+
+/* 深土綠色系列 */
+/* --paw-btn-outline-pri-darkgreen-- */
+.paw-btn-outline-pri-darkgreen {
+    color: #70823C;
+    border-color: #70823C;
+}
+
+.paw-btn-outline-pri-darkgreen:hover,
+.paw-btn-outline-pri-darkgreen:focus {
+    background-color: #70823C;
+    color: #ffffff;
+    border-color: #70823C;
+}
+
+/* --paw-btn-outline-middlegreen-- */
+.paw-btn-outline-middlegreen {
+    color: #988450;
+    border-color: #988450;
+}
+
+.paw-btn-outline-middlegreen:hover,
+.paw-btn-outline-middlegreen:focus {
+    background-color: #988450;
+    color: #ffffff;
+    border-color: #988450;
+}
+
+/* --paw-btn-outline-lightgreen-- */
+.paw-btn-outline-lightgreen {
+    color: #A4992A;
+    border-color: #A4992A;
+}
+
+.paw-btn-outline-lightgreen:hover,
+.paw-btn-outline-lightgreen:focus {
+    background-color: #A4992A;
+    color: #ffffff;
+    border-color: #A4992A;
+}
+
+/* 粉色系列 */
+/* --paw-btn-outline-pink-- */
+.paw-btn-outline-pink {
+    color: #F06256;
+    border-color: #F06256;
+}
+
+.paw-btn-outline-pink:hover,
+.paw-btn-outline-pink:focus {
+    background-color: #F06256;
+    color: #ffffff;
+    border-color: #F06256;
+}
+
+/* --paw-btn-outline-lightorangepink-- */
+.paw-btn-outline-lightorangepink {
+    color: #F8A07F;
+    border-color: #F8A07F;
+}
+
+.paw-btn-outline-lightorangepink:hover,
+.paw-btn-outline-lightorangepink:focus {
+    background-color: #F8A07F;
+    color: #ffffff;
+    border-color: #F8A07F;
+}

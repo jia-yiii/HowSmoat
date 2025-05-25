@@ -1,0 +1,121 @@
+/* Login_Compute.module.css */
+/* 登入表單卡片 */
+.loginCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7F6EE;
+    border-radius: 12px;
+    padding: 30px 40px 40px 40px;
+    width: 100%;
+    max-height: 500px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+/* 標題文字 */
+.loginTitle {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* 表單區域 */
+.loginForm {
+    /* background-color: #ced4da; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+}
+
+.textAP {
+    margin: 10px 0 -1px 0;
+}
+
+/* 輸入框 */
+.inputField {
+    padding: 6px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+}
+
+/* 提交按鈕 */
+.submitButton {
+    width: 150px;
+    justify-content: center;
+    align-self: center;
+    background-color: #E1C599;
+    color: #fff;
+    padding: 12px;
+    margin-top: 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.submitButton:hover {
+    background-color: #cdb286;
+}
+
+.forgetunregi {
+    display: flex;
+    justify-content: center;
+    /* background-color: #ced4da; */
+    margin: 15px 0 20px 0;
+}
+
+/* 超連結 */
+.link {
+    /* border: 1px dashed white; */
+    text-align: center;
+    font-size: 16px;
+    color: #9e633b;
+    text-decoration: none;
+    display: inline-block;
+    min-width: 80px;
+    margin: 0 8px 0 10px;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #87512D;
+    border-bottom: 2px solid #87512D;
+    transition: border-bottom 0.2s ease;
+}
+
+.btnadd {
+    background-color: #7d9b82;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 8px 6px 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    margin: 0 5px 0 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.btnadd:hover {
+    transition: 0.5s ease;
+    transform: translateY(-3px);
+}
+
+.btncancel{
+    background-color: rgba(108, 117, 125,0.8);
+    border: none;
+    border-radius: 8px;
+    padding: 6px 8px 6px 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    margin: 0 5px 0 10px;
+    color: white;
+    font-size: 14px;
+}
+.btncancel:hover{
+    transition: 0.5s ease;
+    transform: translateY(-3px);
+}

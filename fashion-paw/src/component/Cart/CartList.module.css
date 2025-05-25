@@ -1,0 +1,17 @@
+.linknameReset {
+    color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.linknameReset:hover {
+  text-decoration: none; /* 可選，或加 hover 色 */
+  color: #6f8d73;
+}
+.price {
+  font-size: 16px;
+  font-weight: bold;
+  color: #e60023;
+  margin: 0;
+}

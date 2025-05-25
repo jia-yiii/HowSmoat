@@ -1,0 +1,60 @@
+/* Pagination.module.css */
+
+/* 分頁容器 */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  /* 上排圓形按鈕容器 */
+  .buttons {
+    display: inline-flex;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* 圓形按鈕樣式 */
+  .buttons button {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: none;
+    background: #d8d28f;
+    color: #333;
+    font-size: 1rem;
+    cursor: pointer;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, color 0.2s;
+  }
+  
+  /* 滑鼠懸停（非 disabled） */
+  .buttons button:hover:not(:disabled) {
+    background: #988450;
+    color: white;
+  }
+  
+  /* 當前頁按鈕 */
+  .buttons .active {
+    background: #A4992A;
+    color: white;
+  }
+  
+  /* disabled 狀態 */
+  .buttons button:disabled {
+    background: #ECECEE;
+    color: #999;
+    cursor: default;
+  }
+  
+  /* 下方頁碼文字 */
+  .pageInfo {
+    font-size: 0.9rem;
+    color: black;
+  }
+  

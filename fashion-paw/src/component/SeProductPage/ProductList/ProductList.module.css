@@ -1,0 +1,52 @@
+/* 重置 ul & li */
+.container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;  /* ❗確保外層不限制寬度 */
+  overflow-x: hidden;
+}
+
+.item {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+}
+
+/* ===== Grid ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  justify-items: center;
+  width: 100%;
+  max-width: 900px;
+  box-sizing: border-box;
+}
+
+.grid .item {
+  width: 100%;
+  max-width: 250px;
+  margin: 10px;
+}
+
+/* ===== List ===== */
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+/* <li> 不要再有自己的邊框/內距，一律交給 .card 來畫 */
+.list .item {
+  border: none;
+  padding: 0;
+}
+
+
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: 1fr;
+    padding: 0 16px;
+  }
+}

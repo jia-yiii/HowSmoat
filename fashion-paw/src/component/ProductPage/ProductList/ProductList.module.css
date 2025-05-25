@@ -1,0 +1,48 @@
+/* 重置 ul & li */
+.container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.item {
+  margin: 0;
+  padding: 0;
+}
+
+/* ===== Grid ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+}
+
+/* ===== List ===== */
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* <li> 不要再有自己的邊框/內距，一律交給 .card 來畫 */
+.list .item {
+  border: none;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1025px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

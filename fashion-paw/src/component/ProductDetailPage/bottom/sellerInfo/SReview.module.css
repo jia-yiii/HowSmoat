@@ -1,0 +1,19 @@
+.btnClicking {
+    border-bottom: 1px solid rgba(108, 117, 125, 0.3);
+    transition: 0.3 ease;
+    padding-bottom: 10px;
+}
+
+.click {
+    cursor: pointer;
+}
+
+.SReview {
+    padding: 5px 20px 20px 20px;
+    border-bottom: 1px solid #8DAA91;
+}
+
+.text{
+    color: #6c757d;
+    font-size: 16px;
+}

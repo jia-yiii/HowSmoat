@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>門市回傳中...</title>
+    <script>
+        window.onload = function () {
+            console.log("回來的網址參數：", window.location.search);
+            const p = new URLSearchParams(window.location.search);
+            const fromCart = p.get('fromCart');
+            if (fromCart === 'true') {
+                localStorage.setItem('fromCart', 'true');
+            }
+            const store = {
+                storeID: p.get('storeid'),
+                storeName: p.get('storename'),
+            };
+
+            localStorage.setItem('selectedCVS', JSON.stringify(store));
+            localStorage.setItem('fromCart', 'true');
+            setTimeout(()=>{
+                window.location.href = 'http://localhost:3000/CheckBillPage';
+            },300)
+        };
+    </script>
+</head>
+
+<body style="display: none;"></body>
+
+</html>

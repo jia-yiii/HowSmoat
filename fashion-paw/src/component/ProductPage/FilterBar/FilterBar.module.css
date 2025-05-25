@@ -1,0 +1,87 @@
+.filterBar {
+  background: #F3E9DB;
+  /* 米膚色，比原本更飽和溫暖 */
+  padding: 16px 20px;
+  border-radius: 8px;
+  border: 1px solid #E5D5C0;
+  /* 柔和的邊框色 */
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+/* 每一行的排版 */
+.row {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 12px;
+  padding-top: 10px;
+}
+
+.btnud{
+  color: #3E2F1C;
+  font-size: 18px;
+}
+
+/* 左側標籤文字 */
+.label {
+  width: 60px;
+  font-weight: bold;
+  color: #5A4632;
+  /* 深咖啡，大地色主色 */
+  flex-shrink: 0;
+  padding-top: 2px;
+}
+
+/* 選項區域 */
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 20px;
+}
+
+/* 單一選項 */
+.options label {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: #3E2F1C;
+  /* 微深的咖啡色，清晰好讀 */
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.options input[type='checkbox'] {
+  accent-color: #A76E44;
+  /* 棕橘色 checkbox 勾選色 */
+  margin-right: 6px;
+  width: 16px;
+  height: 16px;
+}
+
+.options label:hover {
+  color: #A76E44;
+}
+
+.actions {
+  text-align: right;
+  margin-top: 12px;
+}
+
+.clearBtn {
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  background-color: transparent;
+  color: #7A4B2A;
+  /* 咖啡色文字 */
+  border: 1px solid #7A4B2A;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.clearBtn:hover {
+  background-color: #7A4B2A;
+  /* 奶茶色 hover 背景 */
+  color: white;
+  /* 字體可略變深以增加對比 */
+}

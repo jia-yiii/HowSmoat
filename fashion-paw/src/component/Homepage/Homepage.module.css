@@ -1,0 +1,10 @@
+.homeBackground {
+    /* 柔和米白背景 */
+    /* background-color: #fffdf6; */
+    /* 或者用漸層、圖片背景也可以 */
+    background-image: url('./images/background6.jpg');
+    background-repeat: repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    min-height: 100vh;
+}

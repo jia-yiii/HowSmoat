@@ -1,0 +1,167 @@
+{
+    "/ProductPage": {
+      "sidebar": [
+        { "label": "狗狗" },
+        { "label": "貓咪" },
+        { "label": "倉鼠" },
+        { "label": "鳥" }
+      ],
+      "tabs": ["飼料", "副食", "零食", "保健品", "生活家居", "玩具"],
+      "content": {
+        "狗狗": {
+          "飼料": [
+            { "img": "./images/4-2kitcat_tunacrab.png", "title": "沒有圖片" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "飼料" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "狗狗飼料" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "狗狗飼料" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "狗狗飼料" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "狗狗飼料" }
+          ],
+          "副食": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "狗狗副食" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "狗狗副食" }
+          ],
+          "零食": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "狗狗零食" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "狗狗零食" }
+          ],
+          "保健品": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "狗狗保健品" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "狗狗保健品" }
+          ],
+          "生活家居": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "狗狗生活家居" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "狗狗生活家居" }
+          ],
+          "玩具": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "狗狗玩具" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "狗狗玩具" }
+          ]
+        },
+        "貓咪": {
+          "飼料": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪飼料" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪飼料" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪飼料" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪飼料" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪飼料" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪飼料" }
+          ],
+          "副食": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪副食" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪副食" }
+          ],
+          "零食": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪零食" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪零食" }
+          ],
+          "保健品": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪保健品" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪保健品" }
+          ],
+          "生活家居": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪生活家居" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪生活家居" }
+          ],
+          "玩具": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪玩具" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪玩具" }
+          ]
+        },
+        "倉鼠": {
+          "飼料": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "倉鼠飼料" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "倉鼠飼料" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "倉鼠飼料" }
+          ],
+          "副食": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "倉鼠副食" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "倉鼠副食" }
+          ],
+          "零食": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "倉鼠零食" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "倉鼠零食" }
+          ],
+          "保健品": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "倉鼠保健品" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "倉鼠保健品" }
+          ],
+          "生活家居": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "倉鼠生活家居" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "倉鼠生活家居" }
+          ],
+          "玩具": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "倉鼠玩具" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "倉鼠玩具" }
+          ]
+        },
+        "鳥": {
+          "飼料": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "鳥飼料" }
+          ],
+          "副食": [],
+          "零食": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "鳥零食" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "鳥零食" }
+          ],
+          "保健品": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "鳥保健品" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "鳥保健品" }
+          ],
+          "生活家居": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "鳥生活家居" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "鳥生活家居" }
+          ],
+          "玩具": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "鳥玩具" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "鳥玩具" }
+          ]
+        }
+      }
+    },
+    "/SeProductPage": {
+      "sidebar": [
+        { "label": "狗狗" },
+        { "label": "貓咪" },
+        { "label": "倉鼠" },
+        { "label": "鳥" }
+      ],
+      "tabs": ["產品總覽"],
+      "content": {
+        "狗狗": {
+          "產品總覽": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "狗狗飼料" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "狗狗玩具" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "狗狗飼料" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "狗狗副食" }
+          ]
+        },
+        "貓咪": {
+          "產品總覽": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪飼料" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪用品" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪飼料" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪飼料" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪玩具" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "貓咪飼料" }
+          ]
+        },
+        "倉鼠": {
+          "產品總覽": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "倉鼠玩具" }
+          ]
+        },
+        "鳥": {
+          "產品總覽": [
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "鳥飼料" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "鳥零食" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "鳥飼料" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "鳥飼料" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "鳥飼料" },
+            { "img": "../images/4-2kitcat_tunacrab.png", "title": "鳥飼料" }
+          ]
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,44 @@
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem 0;
+    margin-top: 5rem;
+  }
+  
+  .item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    transition: transform 0.2s, color 0.2s;
+  }
+  
+  .item:hover {
+    transform: translateY(-5px);
+    color: #70823C;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .icon {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  
+  .label {
+    margin-top: 0.5rem;
+    font-size: 1.25rem;
+  }
+  @media (max-width: 576px) {
+    .icon {
+      width: 60px;
+      height: 60px;
+    }
+    .label {
+      font-size: 0.9rem;
+    }
+  }

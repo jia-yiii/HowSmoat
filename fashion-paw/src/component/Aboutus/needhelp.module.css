@@ -1,0 +1,70 @@
+/* 更大的容器 */
+.bigerdiv {
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    /* background-color: #F7F6EE; */
+    height: 400px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 10px;
+    /* border: 5px double #F7F0E7; */
+    border-radius: 5px;
+}
+
+/* 導覽列容器 */
+.nivdiv {
+    height: auto;
+    background-color: #E1C599;
+    color: aliceblue;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-size: 24px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+/* 導覽列項目 */
+.nivspan {
+    flex: 1;
+    text-align: center;
+    color: #3d2d1b;
+    flex-direction: column;
+    justify-content: flex-end;
+    cursor: pointer;
+
+}
+
+.nivspan:hover {
+    background-color: #F1E3C2;
+    color: black;
+}
+
+/* 題目容器 */
+.quest {
+    width: 400px;               /* 固定寬度 */
+    margin: 8px auto;           /* 上下留 8px 空隙，左右 auto 把整個區塊置中 */
+    padding: 10px 16px;         /* 內距 */
+    background-color: #F7F0E7;  /* 底色 */
+    color: #000;                /* 文字色 */
+    text-align: center;         /* 文字置中 */
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.quest:hover {
+    background-color: #F1E3C2;
+}
+
+.answer {
+    display: block;            /* 讓它成為區塊元素 */
+    text-align: center;        /* 文字置中 */
+    margin: 12px auto;         /* 上下間距，自動水平置中 */
+    font-weight: bold;         /* 可選：讓警告感更明顯 */
+    color: #3d2d1b;            /* 可選：更穩重的警示字色 */
+    max-width: 800px;          /* 可選：限制最大寬度 */
+    padding: 0 12px;           /* 可選：增加左右內距 */
+}

@@ -1,0 +1,48 @@
+.newsBar {
+  position: relative;
+  width: 100%;
+  height: 3rem;
+  overflow: hidden;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.icon {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+  font-size: 1.2rem;
+  color: #e49f2c;
+}
+
+.trackWrapper {
+  overflow: hidden;
+  flex: 1;
+  position: relative;
+}
+
+.track {
+  display: inline-flex;
+  white-space: nowrap;
+  /* 跑馬燈裡面的內容過幾秒就會再重新顯示 */
+  animation: marquee 20s linear infinite;
+}
+
+.track span {
+  padding-right: 4rem;
+}
+
+
+/* 動畫：向左滾動一半長度，然後 loop */
+@keyframes marquee  {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

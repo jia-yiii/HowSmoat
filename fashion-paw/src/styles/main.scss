@@ -1,0 +1,13 @@
+// 舊版sass，之後import有可能會被更新取代掉
+// @import './theme';        
+// @import '~bootstrap/scss/bootstrap';  
+// 新版sass
+@use './theme' as theme;// 先定義的主視覺色彩
+
+
+
+@use 'bootstrap'
+  // with (
+  //   $primary:#E1C599 ,
+  //   $secondary: #70823C
+  // ); // 再載入 Bootstrap

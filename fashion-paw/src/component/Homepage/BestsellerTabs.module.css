@@ -1,0 +1,168 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: #87512D;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.icon {
+    width: 2rem;
+    height: auto;
+    flex-shrink: 0;
+}
+
+
+.tabNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1.5rem;
+    background-color: #E1C599;
+    border-bottom: 5px solid #70823C;
+    border-radius: 5px;
+}
+
+.tab {
+    background: none;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+    cursor: pointer;
+    color: black;
+}
+
+.tab.active {
+    background: #99b88c;
+    border-radius: 5px;
+    color: #F7F6EE;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* ✅ 讓整個輪播區塊置中 */
+   width: 100%;
+}
+
+.arrow {
+    background: none;
+    border: none;
+    font-size: 5rem;
+    padding: 0 1rem;
+    cursor: pointer;
+    color: #5a4f3a;
+    user-select: none;
+}
+
+.viewport {
+    overflow: hidden;
+    display: flex;
+    /* ✅ 若還需要控制水平居中 */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  max-width: 900px;
+}
+
+/* 切換下一列 */
+.track {
+    display: flex;
+    transition: transform 0.5s ease;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    /* ✅ 讓卡片們居中排列 */
+   width: fit-content;
+}
+
+.slide {
+    width: 150px;
+    /* 一次三個商品 */
+    flex: 0 0 calc(100% / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    flex: 0 0 calc(100% / 3);
+    /* 一個卡片佔1/3 */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 150px;
+    height: 220px;
+    text-align: center;
+    color: #87512D; 
+    text-decoration: none;
+    /* background-color: aquamarine; */
+}
+
+.card:hover,
+.card:active {
+  text-decoration: none;
+  color: #E1C599;
+}
+
+.img {
+    max-width: 100px;
+    width: auto;
+    height: auto;
+    display: block;
+    object-fit: contain;
+    margin: 0 auto;
+}
+
+.caption {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+
+    max-width: 180px;
+    /* ✅ 強制限制寬度 */
+    margin: 1rem auto;
+    /* ✅ 置中對齊 */
+}
+
+
+@media (max-width: 576px) {
+    .tabNav {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        /* 換行後 gap 縮一下 */
+        justify-content: space-around;
+    }
+
+    .tab {
+        flex: 1 1 120px;
+        /* 每顆按鈕最小寬度 120px，可依需求調整 */
+    }
+}

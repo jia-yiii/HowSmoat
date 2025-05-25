@@ -1,0 +1,555 @@
+/* 第三列：主選單 */
+.mainNav {
+  position: relative;
+  font-weight: 400;
+  /* z-index: 999; */
+}
+
+
+
+.mainNav a:hover::before {
+  opacity: 1;
+}
+
+/* ------把原本的 .mainNav 拆成 ul.menu------ */
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  column-gap: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+.menu>li>a::before {
+  content: '';
+  position: absolute;
+  /* 底邊緊貼文字上方，調整與文字的距離 */
+  /* bottom: 50%; */
+  /* 水平置中文字 */
+  /* left: 50%;                 */
+  transform: translateX(-80%) translateY(-30%);
+  width: 3rem;
+  /* icon 大小 */
+  height: 3rem;
+  background-image: url('./images/feather\ 1.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity .2s;
+}
+
+.menuItem {
+  position: relative;
+  /* 讓 ::before 可以絕對定位在這個區塊內 */
+}
+
+/* 拾毛百貨拾毛市場商品導覽列文字 */
+.menuLink {
+  position: relative;
+  /* 讓 ::before 以這裡為參考 */
+  display: inline-block;
+  /* 需要 inline-block 才能定位 */
+  cursor: pointer;
+  color: black;
+  padding: 2px;
+  font-size: 18px;
+  margin-top: -3px;
+}
+
+.menuLink:hover {
+  background-color: rgba(112, 130, 60, 0.5);
+  color: white;
+  border-radius: 5px;
+  transition: color 0.2s;
+}
+
+/* 小羽毛圖示：預設隱藏 */
+.menuLink::before {
+  content: '';
+  position: absolute;
+  /* 底邊緊貼文字上方，調整與文字的距離 */
+  /* bottom: 50%; */
+  /* 水平置中文字 */
+  /* left: 50%;                 */
+  transform: translateX(-80%) translateY(-30%);
+  width: 3rem;
+  /* icon 大小 */
+  height: 3rem;
+  background-image: url('./images/feather\ 1.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity .2s;
+}
+
+/* hover 時顯示 */
+.menuItem:hover .menuLink::before {
+  opacity: 1;
+}
+
+/* 所有 li + a 的基本樣式 */
+.menu li,
+.menu li a {
+  position: relative;
+}
+
+.menu li a {
+  color: black;
+  text-decoration: none;
+  padding: 0.25rem;
+  transition: color 0.2s;
+  font-size: 16px;
+}
+
+/* 關於我們+寵物小知識的hoverlink+megapanel的card */
+.menu li a:hover {
+  background-color: rgba(112, 130, 60, 0.5);
+  border-radius: 5px;
+  color: white;
+}
+
+/* dropdown 容器 */
+.dropdown {
+  /* 需要相對定位，才能讓子選單絕對定位於此 */
+  position: relative;
+}
+
+/* 子選單預設隱藏 */
+.dropdownMenu {
+  list-style: none;
+  position: absolute;
+  width: 170px;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-45%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  /* 隱藏預設 */
+  display: none;
+}
+
+/* hover 時顯示子選單 */
+.dropdown:hover .dropdownMenu {
+  display: flex;
+}
+
+.dropdownMenu li>a,
+.dropdownMenu li>span {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-size: 16px;
+}
+
+.dropdownMenu li:hover>a {
+  background: rgba(112, 130, 60, 0.5);
+  ;
+  /* color: #70823C; */
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* noLink 項目文字改灰、禁止 hover 背景 */
+.noLink>span {
+  color: #6c757d;
+  cursor: default;
+  border-bottom: 3px solid #E9D1B0;
+  line-height: 1.2;
+  padding-bottom: 2px;
+}
+
+/* ----------------下拉式選單的大版塊------------------- */
+.menuItem {
+  position: relative;
+  /* 讓下面的 megaPanel 以此定位 */
+}
+
+/* Mega Menu Panel */
+.megaPanel {
+  position: absolute;
+  top: 100%;
+  /* 緊貼主選單底部 */
+  left: 10%;
+  transform: translateX(-50%);
+  display: flex;
+  /* max-width: 1200px; */
+  width: 700px;
+  /* 或設定固定最大寬度 */
+  justify-content: center;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  z-index: 1000;
+  border-radius: 5px
+}
+
+/* 左側子選單 */
+.sidebar {
+  border-right: 1px solid #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+}
+
+.sidebarLink {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: black;
+  text-decoration: none;
+  transition: color 0.2s;
+  border: none;
+  background: none;
+}
+
+.sidebarLink:hover {
+  color: #70823C;
+  background: #F8F6EE;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+
+.sidebar li a {
+  color: black;
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+}
+
+.sidebar li a:hover {
+  color: #70823C;
+}
+
+.activePet {
+  background-color: #f1f5eb;
+  color: #70823C;
+  font-weight: 400;
+  border-left: 3px solid #70823C;
+}
+
+
+/* 右側內容區 */
+.content {
+  flex: 1;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 標籤列 */
+.tabs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* 上方飼料副食等的按鈕 */
+.tabs button {
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  color: #333;
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 6px;
+  transition: color 0.2s ease;
+}
+
+.tabs button:hover,
+.tabs .activeTab {
+  color: #70823C;
+  border-bottom: 2px solid #70823C;
+}
+
+/* 卡片列表 */
+.tabPane {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1rem;
+  max-height: 300px;
+  /* 如果要滾動 */
+  overflow-y: auto;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 180px;
+}
+
+.card img {
+  width: 100px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.card p {
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: black;
+}
+
+.card p:hover {
+  color: white;
+}
+
+.emptyMsg {
+  font-size: 16px;
+  color: #6c757d;
+  padding: 10px 0 0 0;
+  margin-left: -30px;
+  text-align: center;
+}
+
+
+/* -------側邊欄------- */
+@media (min-width: 769px) {
+
+  .drawer,
+  .navOverlay,
+  .drawer.open,
+  .navOverlay.open {
+    /* 確保遮罩超過768px就會不見 */
+    display: none !important;
+  }
+}
+
+/* 側邊欄初始，畫面左側 */
+.drawer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 50%;
+  background: rgb(255, 255, 255);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease;
+  /* 蓋在半透明遮罩之上 */
+  z-index: 1001;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+/* 若 Drawer 本身是 position: fixed; 就會以 Drawer 左上為參考 */
+.closeBtn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: none;
+  border: none;
+  font-size: 2.5rem;
+  cursor: pointer;
+  /* 確保它蓋過 nav list */
+  z-index: 1010;
+}
+
+/* 打開側邊欄 */
+.drawer.open {
+  transform: translateX(0);
+}
+
+/* 半透明遮罩 */
+.navOverlay {
+  display: none;
+  position: fixed;
+  /* 半透明遮罩 */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* 半透明遮罩 */
+  background: rgba(108, 117, 125, 0.3);
+  z-index: 1000;
+}
+
+/* 灰色遮罩打開 */
+.navOverlay.open {
+  display: block;
+}
+
+/* 側邊欄（Drawer）時，讓 .menu 直列排列 */
+@media (max-width: 768px) {
+  .drawer .menu {
+    /* 確保是 flex 佈局 */
+    display: flex;
+    /* 由上到下 */
+    flex-direction: column;
+    /* 文字靠左（或你要的對齊方式） */
+    align-items: flex-start;
+    /* 每個選項間距 */
+    gap: 2rem;
+    /* 內距，可選 */
+    padding: 6rem 2rem;
+    display: none !important;
+
+  }
+
+  .drawer .menu li {
+    /* 清掉原本水平版或其他設定的 margin */
+    margin: 0;
+  }
+
+  .drawer .menu li a {
+    padding: 0.5rem 0;
+    /* 每行點擊區變大一些 */
+  }
+
+  .drawer .accordionMenu {
+    display: block;
+    margin-top: 5rem;
+    /* 視你的 X 按鈕高度調整頂距，讓它緊跟在關閉按鈕下方 */
+  }
+
+  /* 1) 關掉羽毛 icon（桌機版 hover 用的那段） */
+  .drawer .mainNav a::before {
+    display: none;
+  }
+
+  /* 2) 讓每一整行 li 在 hover 時都有背景色 */
+  /* .drawer .accordionMenu li:hover .header,
+  .drawer .accordionMenu li:hover>a {
+    background-color: #F8F6EE;
+  } */
+
+  /* 3) 如果你要文字同時變色，也可以再加這行 */
+  .drawer .accordionMenu .header:hover a {
+    color: #70823C;
+  }
+}
+
+/* 側邊欄手風琴 */
+.accordionMenu {
+  list-style: none;
+  padding: 0;
+  /* 與 Drawer 內間距 */
+  margin: 2rem 0;
+  display: none;
+}
+
+.accordionMenu li {
+  border-bottom: 1px solid #eee;
+}
+
+/* header 區塊：可點擊展開 */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+
+
+/* 箭頭 */
+.arrow {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* 子選單 */
+.submenu {
+  list-style: none;
+  padding: 0 1rem 0 1.5rem;
+  margin: 0;
+}
+
+.submenu li {
+  padding: 0.5rem 0;
+}
+
+.submenu li a {
+  text-decoration: none;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.submenu li a:hover {
+  color: #70823C;
+}
+
+/* 帳戶那一小區塊 */
+.accountSection {
+  margin-top: 2rem;
+  /* 跟上面 menu 拉開一點 */
+  padding: 0 1.5rem;
+  /* 左右內距對齊 menu */
+}
+
+.accountSection h3 {
+  font-size: 1rem;
+  color: #999;
+  /* 小標題淡色 */
+  margin-bottom: 0.5rem;
+}
+
+.accountList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.accountList li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  /* 跟 menu 項目一致 */
+}
+
+.accountList li:last-child {
+  border-bottom: none;
+}
+
+.accountList a {
+  text-decoration: none;
+  color: black;
+}
+
+.accountList a:hover {
+  color: #70823C;
+}
+
+/* 側邊欄登出按鈕 */
+.drawerLogoutBtn {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: #333;
+  cursor: pointer;
+}
+
+.drawerLogoutBtn:hover {
+  color: #70823C;
+  text-decoration: none;
+}

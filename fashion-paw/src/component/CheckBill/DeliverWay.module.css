@@ -1,0 +1,44 @@
+.myadd{
+    font-size: 16px;
+    border-bottom: 2px solid #8DAA91;
+    cursor: pointer;
+}
+.myadd:hover{
+    font-weight: bold;
+    color: #ECC978;
+}
+.myclear{
+    font-size: 16px;
+    border-bottom: 2px solid #8DAA91;
+    cursor: pointer;
+}
+.myclear:hover{
+    font-weight: bold;
+    color: #EC5B27;
+}
+.btn {
+  background-color: #8DAA91;         /* 豆沙綠 */
+  color: white;
+  border: none;
+  border-radius: 0.75rem;            /* 更柔和的圓角 */
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  display: block;        /* ✅ 水平置中 */
+  margin-left: 0.9rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0.8rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  background-color: #7d9b82;
+}
+
+.btn>a{
+    text-decoration: none;
+    color: white;
+}

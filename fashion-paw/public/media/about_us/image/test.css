@@ -1,0 +1,218 @@
+.moveimg {
+    position: absolute;
+    top: 40%;
+    left: 85%;
+    height: 100px;
+    width: 100px;
+    animation-name: gotoright;
+    animation-duration: 4s;
+}
+
+@keyframes gotoright {
+    0% {
+        left: 0%
+    }
+
+    20% {
+        top: 25%
+    }
+
+    40% {
+        top: 50%
+    }
+
+    60% {
+        top: 40%
+    }
+
+    100% {
+        left: 85%
+    }
+}
+
+@keyframes tiltAndBack {
+    0% {
+        transform: scaleX(1)
+            /* 初始狀態，不翻轉 */
+            translateY(0);
+        opacity: 0;
+    }
+
+    25% {
+        transform: scaleX(-1) translateY(-60px);
+        opacity: 0.5;
+    }
+
+    40% {
+        transform: scaleX(1) translateY(-60px);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: scaleX(-1) translateY(-60px);
+        opacity: 1;
+    }
+
+    60% {
+        transform: scaleX(1) translateY(-60px)
+    }
+
+    75% {
+        transform: scaleX(-1) translateY(-60px)
+    }
+
+
+    100% {
+        transform: scaleX(1) translateY(0px);
+    }
+
+}
+
+
+
+
+
+
+
+.first_box,
+.two_box,
+.three_box,
+.four_box {
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    visibility: hidden;
+    /* top: 10%;
+    left: 20%; */
+    border: 1px black solid;
+    border-radius: 10%;
+    background-color: dimgray;
+}
+
+.first_box:hover,
+.two_box:hover,
+.three_box:hover,
+.four_box:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+}
+
+
+
+
+.three_box {
+    top: 10%;
+    left: 50%;
+}
+
+.four_box {
+    top: 60%;
+    left: 65%;
+}
+
+
+.two_box {
+    top: 60%;
+    left: 35%;
+
+}
+
+.dancebox {
+    animation-name: tiltAndBack;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+.first_box {
+    top: 10%;
+    left: 20%;
+}
+
+a {
+
+    /* 更改超連結文字顏色 */
+    text-decoration: none;
+    /* 拿掉底線 */
+
+    color: aliceblue;
+}
+
+@keyframes dogrun {
+    0% {
+        transform: translateX(30px);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateX(-30px);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 0;
+    }
+}
+
+.dogruning {
+    animation: dogrun 1s forwards
+}
+
+@keyframes fadeUp {
+    0% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+}
+
+.fade-up {
+    animation: fadeUp 0.6s ease-out forwards;
+}
+
+
+@keyframes bushFadeOut {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(0.6);
+    }
+}
+
+.bush-disappear {
+    animation: bushFadeOut 0.6s ease-out forwards;
+}
+
+.kusa {
+    width: 180px;
+    height: 200px;
+    position: absolute;
+}
+
+#kusa1 {
+    top: 10%;
+    left: 20%;
+}
+
+#kusa3 {
+    top: 10%;
+    left: 50%;
+}
+
+#kusa2 {
+    top: 60%;
+    left: 35%;
+}
+
+#kusa4 {
+    top: 60%;
+    left: 65%;
+}

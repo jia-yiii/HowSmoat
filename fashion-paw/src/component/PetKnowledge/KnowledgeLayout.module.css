@@ -1,0 +1,21 @@
+/* KnowledgeLayout.module.css */
+.container {
+    display: flex;              /* 左右並排 */
+    align-items: flex-start;    /* 上方對齊 */
+    gap: 1rem;                  /* 欄之間間距 */
+    padding: 1rem;              /* 可依需求調整外側間距 */
+  }
+  
+  /* 側邊欄固定寬度 */
+  .sidebar {
+    width: 200px;               /* 側邊欄固定寬度 */
+    flex-shrink: 0;             /* 不要縮小 */
+  }
+  
+  /* 文章列表撐滿剩餘空間 */
+  .listWrapper {
+    flex: 1;                    /* 自動延伸撐滿 */
+    display: flex;
+    flex-direction: column;
+  }
+  

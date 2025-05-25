@@ -1,0 +1,95 @@
+/* EmailVerify.module.css */
+
+.Wrapper {
+  /* border: 2px solid #ccc;
+  border-radius: 8px; */
+  padding: 10px 40px 0 40px;
+}
+
+.formRow {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin: 3px 0;
+  padding-left: 20px;
+  /* background-color: #e3b3b3; */
+}
+
+.label {
+  width: 80px;
+  font-size: 16px;
+  display: inline-block;
+  text-align: center;
+  margin: 8px 0 8px 0;
+  /* background-color: #ccc; */
+}
+
+.input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  width: 60%;
+  height: 35px;
+}
+
+.addselectcity {
+  margin-right: 5px;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.addselectregion {
+  margin-right: 5px;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.checkbox {
+  margin-right: 5px;
+}
+
+.labeltext {
+  width: 150px;
+  font-size: 16px;
+  display: inline-block;
+  text-align: left;
+  /* background-color: #6c757d; */
+  margin-top: 6px;
+}
+
+.nextBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #8DAA91;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 0 0 10px 0;
+}
+
+.introtextarea {
+  /* background-color: #6c757d; */
+  padding: 0 0 5px 20px;
+}
+
+.textarea{
+  width: 310px;
+  height: 70px;
+}
+
+.nextBtn:hover {
+  background-color: #97b59b;
+}
+
+.nextBtn:disabled {
+  background-color: #90caf9;
+  cursor: not-allowed;
+}
+
+.status {
+  color: #6c757d;
+  margin-top: 5px;
+  font-size: 14px;
+}

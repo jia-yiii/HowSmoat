@@ -1,0 +1,109 @@
+.couponcontainer {
+    padding: 1rem;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.coupontogglewrap {
+    margin-bottom: 1rem;
+}
+
+.coupontogglebtn {
+    background-color: #d9e8dc;
+    color: #2b5b45;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.couponemptymsg {
+    color: #999;
+    margin-top: 0.5rem;
+}
+
+.couponlist {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.couponcard {
+  display: flex;
+  flex-direction: row;         /* ← 改成水平排列 */
+  align-items: center;
+  gap: 12px;                   /* ← 加一點間距 */
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 12px;
+  width: 100%;
+  max-width: 100%;
+  /* min-width: 280px; */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.couponcard:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+}
+
+.couponcard.used {
+    background-color: #f0f0f0;
+    color: #aaa;
+    cursor: not-allowed;
+    opacity: 0.6;
+    position: relative;
+}
+
+.couponcard.used::after {
+    /* content: "✔"; */
+    position: absolute;
+    top: 8px;
+    right: 12px;
+    color: #d7a85f;
+    font-size: 1.2rem;
+}
+
+.coupondiscount {
+    width: 60px;
+    height: 60px;
+    min-width: 60px;
+    background-color: #f3e6cf;
+    color: #5b3e26;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.couponinfo {
+    flex-grow: 1;
+  word-break: break-word;
+  white-space: normal;     /* ← 確保文字可以正常換行 */
+  max-width: 100%;  
+}
+
+.couponcode {
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+}
+
+.coupondescription {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.couponsuccessmsg {
+    color: #d8627c;
+    font-weight: bold;
+    margin-top: 1rem;
+}

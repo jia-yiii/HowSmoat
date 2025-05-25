@@ -1,0 +1,38 @@
+
+
+.cartBtn:focus {
+  outline: none;
+  box-shadow: none;
+}
+/* #E1C599 #87512D */
+.bgbtn {
+  background-color: #E1C599;
+  /* border: 1px solid #DDB227; */
+  border: none;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  color: #87512D;
+  /* font-weight: bold; */
+  font-size: 16px;
+}
+
+.bgbtn:hover {
+  background-color: #D8B574;
+  transition: 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  transform: translateY(-2px);
+  color: white;
+}
+
+.iconBtn {
+  background: none;
+  border: none;
+  color: #87512D;
+}
+
+.iconBtn:hover {
+  background: none;
+  border: none;
+  color: #a3663d;
+  cursor: pointer;
+}

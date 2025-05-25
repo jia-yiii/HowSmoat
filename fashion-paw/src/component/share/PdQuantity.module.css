@@ -1,0 +1,33 @@
+.quantityBtn {
+  background-color: white;
+  border: 1px solid #ced4da;
+  border-radius: 0.5rem;
+  padding: 0.2rem 0.5rem;
+  font-size: 1rem;
+  color: #ced4da; /* 豆沙綠 */
+  transition: background 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantityBtnActive {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.quantityBtn:hover {
+  border: 1px solid #EC9978;
+  color: #EC9978;
+}
+
+.quantityBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.quantityBtn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #ecdccd;
+  border-color: #EC9978;
+  color: #EC9978;
+}
+

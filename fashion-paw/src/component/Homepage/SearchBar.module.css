@@ -1,0 +1,50 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;  /* 右對齊 */
+    position: relative;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .select,
+  .input {
+    font-size: 0.9rem;
+    padding: 0 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 5px;
+    transition: width 0.3s ease, opacity 1s ease;
+    opacity: 1;
+  }
+  
+  .select {
+    width: 80px;
+  }
+  
+  .input {
+    width: 200px;
+    border: none;
+  }
+  
+  .button {
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    border-radius: 4px;
+    padding: 0 0.5rem;
+    cursor: pointer;
+    height: 100%;
+  }
+  
+  .svgIcon {
+    width: 20px;
+    height: 20px;
+    fill: #333;
+    transition: fill 0.2s;
+  }
+
+  
+  

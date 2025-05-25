@@ -1,0 +1,45 @@
+.share {
+    position: relative;
+}
+
+.shareBtn{
+    margin-left: 10px;
+}
+
+.shareBtn:hover .shareOriginal {
+    display: none;
+}
+
+.shareBtn:hover .shareHover {
+    font-size: 1.5em;
+    /* 放大文字，愛心就變大 */
+    display: inline;
+}
+
+.shareBtn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.shareOriginal {
+    color: #70823C;
+    font-size: 1.3rem;
+}
+
+.shareHover {
+    color: #70823C;
+    text-shadow: 1px 1px 2px #988450;
+    display: none
+}
+
+.toast {
+    position: absolute;
+    top: 100%;
+    background-color: #F7F0E7;
+    color: #6c757d;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    white-space: nowrap;
+}

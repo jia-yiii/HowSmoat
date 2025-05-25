@@ -1,0 +1,70 @@
+.pdname {
+    font-size: 18px;
+}
+
+.price {
+    color: #ECC978;
+    font-weight: bold;
+}
+
+.linkbox {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pdbtn {
+    font-size: 16px;
+    color: #333;
+    /* font-weight: bold; */
+    margin-top: 6px;
+}
+
+.pdbtn:hover {
+    font-size: 17px;
+
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.closebtn {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+    /* border: 1px solid #ECC978; */
+}
+
+.btncancel {
+    background-color: rgba(108, 117, 125, 0.8);
+    border: none;
+    border-radius: 8px;
+    padding: 6px 8px 6px 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    margin: 0 5px 0 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.btncancel:hover {
+    transition: 0.5s ease;
+    transform: translateY(-3px);
+}
+
+.btndel {
+    background-color: #e60023;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 8px 6px 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.3);
+    margin: 0 5px 0 10px;
+    color: white;
+    font-size: 14px;
+}
+
+.btndel:hover {
+    transition: 0.5s ease;
+    transform: translateY(-3px);
+}

@@ -1,0 +1,18 @@
+.position{
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.title{
+    margin-top: 10px;
+    font-size: 36px;
+    text-align: center;
+    /* background-color: aliceblue; */
+}
+.returnbtn{
+    border-radius: 10px;
+    background-color: #8DAA91;
+    margin:0 100px 0 28px;
+    font-size: 16px;
+}
