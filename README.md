@@ -37,19 +37,19 @@
 
 ### 後端 Node.js（資料夾：`nodejs`）
 
-#### 📁 路由設定：`nodejs/routes`
+#### 路由設定：`nodejs/routes`
 - `cvs.js`：接收超商地圖門市資料並重導回前端
 - `payment.js`：金流串接，接收綠界付款回傳訊息
 - `resetPassword.js`、`verify.js`：密碼重設與信箱驗證流程
 - `authGoogle.js`、`authLine.js`：第三方登入 API
 
-#### 🛠 工具模組：`nodejs/utils`
+#### 工具模組：`nodejs/utils`
 - `sendResetPasswordEmail.js`：寄送密碼重設信件（Gmail OAuth2）
 - `sendVerificationEmail.js`：寄送註冊驗證碼
 - `passportGoogle.js`、`passportLine.js`：第三方登入策略設定
 - `initPassportAuth.js`：Passport 初始化整合
 
-#### 🗃 資料存取與 API：`sql.js`
+#### 資料存取與 API：`sql.js`
 - 提供 MySQL 資料庫查詢封裝
 - 所有後端路由統一透過 `q()` 呼叫 SQL 取得資料
 
