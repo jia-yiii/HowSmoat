@@ -50,10 +50,23 @@ async function handleGoogleCallback(req, res) {
         path: '/' // ⬅️ 確保整站能拿到
       });
 
+      const [userPowerResult] = await q(`SELECT power FROM userinfo WHERE uid = ?`, [uid]);
+      console.log("🔍 查詢權限回傳：", userPowerResult);
+      const userPower = userPowerResult?.power || 'buyer';
+
+      res.cookie('user_power', userPower, {
+        httpOnly: false,
+        maxAge: 1000 * 60 * 60 * 24,
+        sameSite: 'Lax',
+        domain: 'localhost',
+        path: '/'
+      });
+
 
       console.log("🍪 已設 cookie user_uid =", uid);
+      console.log("🍪 已設 cookie user_power =", userPower);
       console.log("✅ 登入成功，導首頁");
-      return res.redirect(`http://localhost:3000/Third_SetCookie?uid=${uid}`);
+      return res.redirect(`http://localhost:3000/Third_SetCookie?uid=${uid}&user_power=${userPower}`);
     } else {
       return res.redirect(
         `http://localhost:3000/register?email=${encodeURIComponent(email)}&provider=${provider}&provider_id=${providerId}`

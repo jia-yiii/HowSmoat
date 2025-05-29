@@ -52,8 +52,23 @@ async function handleLineCallback(req, res) {
         path: '/'
       });
 
+       const [userPowerResult] = await q(`SELECT power FROM userinfo WHERE uid = ?`, [uid]);
+      console.log("🔍 查詢權限回傳：", userPowerResult);
+      const userPower = userPowerResult?.power || 'buyer'; 
+
+      res.cookie('user_power', userPower, {
+        httpOnly: false, 
+        maxAge: 1000 * 60 * 60 * 24,
+        sameSite: 'Lax',
+        domain: 'localhost',
+        path: '/'
+      });
+
+
       console.log("🍪 已設 cookie user_uid =", uid);
-      return res.redirect(`http://localhost:3000/Third_SetCookie?uid=${uid}`);
+      console.log("🍪 已設 cookie user_power =", userPower);
+
+      return res.redirect(`http://localhost:3000/Third_SetCookie?uid=${uid}&user_power=${userPower}`);
     } else {
       // 導向補充註冊頁（帶上 email）
       return res.redirect(
