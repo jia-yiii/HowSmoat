@@ -132,6 +132,7 @@ function Header() {
     // 點擊登出跳轉到首頁
     const logout = (e) => {
         cookie.remove('user_uid', { path: '/', sameSite: 'Lax' });
+        cookie.remove("user_power", { path: '/', sameSite: 'Lax' });
         localStorage.removeItem("cartList");
         localStorage.removeItem("sellers");
         localStorage.removeItem("cartMerged");
