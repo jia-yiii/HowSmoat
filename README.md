@@ -51,8 +51,6 @@
 - `initPassportAuth.js`：Passport 初始化整合
 
 #### 資料存取與 API：`sql.js`
-- 提供 MySQL 資料庫查詢封裝
-- 所有後端路由統一透過 `q()` 呼叫 SQL 取得資料
 
 ---
 
