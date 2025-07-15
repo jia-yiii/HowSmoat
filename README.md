@@ -3,9 +3,10 @@
 ### 我負責的功能開發包含：
 - 購物車全功能（含 localStorage 合併與數量限制）
 - 結帳頁面串接資料與金流
-- 商品詳情頁串接資料、評論切換
-- 後端API撰寫與 Gmail OAuth2驗證功能
-- 實作第三方登入（Google / Line）
+- 商品詳情頁、商品資訊及評價切換
+- 資料串接API撰寫 與 Gmail OAuth2驗證功能
+- 第三方登入（Google / Line）
+- [成果影片](https://youtu.be/kx9S5Cx6ZzM)
 
 
 ---
