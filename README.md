@@ -6,7 +6,7 @@
 - 商品詳情頁串接資料、評論切換
 - 後端API撰寫與 Gmail OAuth2驗證功能
 - 實作第三方登入（Google / Line）
-- [作品簡報](https://docs.google.com/presentation/d/1A8ZjHB-7j530-yp74gex5Pa-ZHD2-y0F/edit?usp=sharing&ouid=114015330288415401537&rtpof=true&sd=true)
+
 
 ---
 
